@@ -484,6 +484,12 @@ h6,
   color: #ffffff;
   font-size: 36px;
 }
+#header1-9 .mbr-section-lead B {
+  text-align: left;
+}
+#header1-9 .mbr-section-lead SPAN {
+  color: #ffffff;
+}
 #features4-7 .card-subtitle {
   color: #232323;
   font-size: 16px;

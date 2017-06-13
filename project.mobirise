@@ -156,7 +156,7 @@
             "showButtons": true
           },
           "title": "KATE DUBROVSKA",
-          "text": "Kate Dubrovska&nbsp;<br>Business minded linguist and master communicator with proven record in engaging with CEOs of multiple sector FTSE 100 companies - as well as startups. Proven ability to earn client trust by aqcuiring and demonstrating genuine insight into their business needs.  Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns..&nbsp;<br>",
+          "text": "<b>Kate</b> <b>Dubrovsk</b><b><br></b><span style=\"line-height: 1.5;\">Business minded linguist and master communicator with proven record in engaging with CEOs of multiple sector FTSE 100 companies - as well as startups. Proven ability to earn client trust by aqcuiring and demonstrating genuine insight into their business needs.  Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns..&nbsp;</span><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD MY CV</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">CONTINUE</a>",
           "_styles": {
             ".mbr-section-title": {
@@ -166,6 +166,12 @@
               "text-align": "left",
               "color": "#ffffff",
               "font-size": "36px"
+            },
+            ".mbr-section-lead B": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead SPAN": {
+              "color": "#ffffff"
             }
           }
         },
