@@ -484,9 +484,16 @@ h6,
   text-align: center;
 }
 #features4-7 .card-subtitle {
-  color: #bcbcbc;
+  color: #f7da64;
+  font-size: 16px;
 }
 #features4-7 .iconbox {
   background-color: #f2f2f2;
   border-color: #f2f2f2;
+}
+#features4-7 P {
+  color: #ffffff;
+}
+#features4-7 H4 {
+  color: #ffffff;
 }
