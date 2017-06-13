@@ -61,10 +61,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "3.3rem"
+              "font-size": "3.25rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "3.574rem"
+              "font-size": "3.520rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -96,7 +96,7 @@
           "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#c1c1c1",
-            "fontSize": "3.3",
+            "fontSize": "3.25",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -114,10 +114,10 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/kate-logo-384x128.png",
+              "src": "@PROJECT_PATH@/assets/images/k-logo-383x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "title": "",
               "linkInNewWindow": false
             },
@@ -156,7 +156,7 @@
             "showButtons": true
           },
           "title": "KATE DUBROVSKA",
-          "text": "Business minded linguist and master communicator with proven record in engaging with CEOs of multiple sector FTSE 100 companies - as well as startups. Proven ability to earn client trust by aqcuiring and demonstrating genuine insight into their business needs.  Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns..&nbsp;<br>",
+          "text": "Kate Dubrovska&nbsp;<br>Business minded linguist and master communicator with proven record in engaging with CEOs of multiple sector FTSE 100 companies - as well as startups. Proven ability to earn client trust by aqcuiring and demonstrating genuine insight into their business needs.  Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns..&nbsp;<br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD MY CV</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">CONTINUE</a>",
           "_styles": {
             ".mbr-section-title": {
@@ -164,7 +164,8 @@
             },
             ".mbr-section-lead": {
               "text-align": "left",
-              "color": "#fac51c"
+              "color": "#ffffff",
+              "font-size": "36px"
             }
           }
         },
@@ -175,8 +176,8 @@
               "font-size": "16px"
             },
             ".iconbox": {
-              "background-color": "#f2f2f2",
-              "border-color": "#f2f2f2"
+              "background-color": "#ee7358",
+              "border-color": "#ee7358"
             },
             "P": {
               "color": "#ffffff"
@@ -191,7 +192,7 @@
           "_name": "features4",
           "_anchor": "features4-7",
           "_params": {
-            "iconsBgColor": "#f2f2f2",
+            "iconsBgColor": "#ee7358",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
@@ -329,7 +330,7 @@
               "color": "#ffffff"
             },
             "H3": {
-              "color": "#f7da64"
+              "color": "#ee7358"
             }
           }
         },
@@ -345,7 +346,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#2e2e2e",
+            "bgColor": "#ee7358",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,

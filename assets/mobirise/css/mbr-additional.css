@@ -433,11 +433,11 @@ h6,
   font-family: 'Roboto', sans-serif;
 }
 #ext_menu-0 .link {
-  font-size: 3.3rem;
+  font-size: 3.25rem;
 }
 #ext_menu-0 .dropdown-item,
 #ext_menu-0 .nav-dropdown-sm .link {
-  font-size: 3.574rem;
+  font-size: 3.520rem;
 }
 #ext_menu-0 .link:hover,
 #ext_menu-0 .dropdown-item:hover,
@@ -481,15 +481,16 @@ h6,
 }
 #header1-9 .mbr-section-lead {
   text-align: left;
-  color: #fac51c;
+  color: #ffffff;
+  font-size: 36px;
 }
 #features4-7 .card-subtitle {
   color: #232323;
   font-size: 16px;
 }
 #features4-7 .iconbox {
-  background-color: #f2f2f2;
-  border-color: #f2f2f2;
+  background-color: #ee7358;
+  border-color: #ee7358;
 }
 #features4-7 P {
   color: #ffffff;
@@ -501,5 +502,5 @@ h6,
   color: #ffffff;
 }
 #content7-5 H3 {
-  color: #f7da64;
+  color: #ee7358;
 }
