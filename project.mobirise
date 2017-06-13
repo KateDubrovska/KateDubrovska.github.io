@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 8,
+    "uniqCompNum": 10,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -122,76 +122,41 @@
           "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-info\" href=\"mailto:kate.dubrovskaya@icloud.com\">EMAIL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success\" href=\"tel:+442070978557\">CALL</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary\" href=\"https://mobirise.com/\">DOWNLOAD MY CV</a></li>"
         },
         {
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#fff"
-            },
-            ".lead": {
-              "color": "#ffffff"
-            }
-          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box8",
-          "_anchor": "msg-box8-2",
+          "_name": "header1",
+          "_anchor": "header1-9",
           "_params": {
-            "paddingTop": "5",
-            "paddingBottom": "5",
             "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/img_2755-2000x1500.jpg",
-            "bgColor": "#475577",
-            "bgColorRadio": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/boo-2000x2666.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
             "bgVideo": {
-              "width": 1280,
-              "height": 720,
-              "url": "https://www.youtube.com/"
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
+            "overlay": false,
             "overlayOpacity": 0.5,
-            "overlayColor": "#222",
+            "overlayColor": "#000",
+            "contentAlign": "center",
             "showTitle": true,
             "showText": true,
-            "showButton": false
+            "showButtons": true
           },
           "title": "KATE DUBROVSKA",
-          "text": "Sales Professional",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
-        },
-        {
+          "text": "Business minded linguist and master communicator with proven record in engaging with CEOs of multiple sector FTSE 100 companies - as well as startups. Proven ability to earn client trust by aqcuiring and demonstrating genuine insight into their business needs.  Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns..&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"#top\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD MY CV</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">CONTINUE</a>",
           "_styles": {
-            ".mbr-section-title, .mbr-section-subtitle": {
-              "text-align": "center"
+            ".mbr-section-title": {
+              "text-align": "left"
+            },
+            ".mbr-section-lead": {
+              "text-align": "left"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header3",
-          "_anchor": "header3-3",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": "0",
-            "bgColor": "#efefef",
-            "showMeta": true
-          },
-          "title": "Professional Profile",
-          "meta": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-4",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#efefef"
-          },
-          "text": "<p>Business minded linguist and master communicator with proven record in engaging with CEOs of multiple sector FTSE 100 companies - as well as startups. Proven ability to earn client trust by aqcuiring and demonstrating genuine insight into their business needs. &nbsp;Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns..&nbsp;</p><p><br></p><p><br></p>"
+          }
         },
         {
           "_styles": {
@@ -397,7 +362,7 @@
             }
           },
           "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
-          "text2": "<strong>Contacts</strong><br>\nEmail<br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\">+44 (207) 097 8557</a>",
+          "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\">+44 (207) 097 8557</a>",
           "text3": ""
         }
       ]
