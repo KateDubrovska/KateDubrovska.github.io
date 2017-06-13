@@ -236,7 +236,7 @@
               "name": "success",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "",
+              "link": "index.html",
               "size": 0,
               "color": "black",
               "newWindow": false
@@ -248,13 +248,14 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "edit",
+              "linkInNewWindow": false,
+              "name": "hot-cup",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black",
-              "family": "et-line"
+              "color": "black"
             }
           },
           "title2": "Relentless",
