@@ -139,12 +139,14 @@
             "paddingTop": "5",
             "paddingBottom": "5",
             "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/img-1-2000x1500.jpg",
-            "bgColor": "#F2F2F2",
-            "bgColorRadio": false,
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/img_2755-2000x1500.jpg",
+            "bgColor": "#475577",
+            "bgColorRadio": true,
             "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/"
             },
             "bgVideoRadio": false,
             "overlay": true,
