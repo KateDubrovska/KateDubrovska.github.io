@@ -157,7 +157,7 @@
             "bgImageRadio": false,
             "showArrow": true,
             "bgImage": "@PROJECT_PATH@/assets/images/boo-1-2000x1593.jpg",
-            "bgColor": "#3d8eb9",
+            "bgColor": "#eb6b56",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
