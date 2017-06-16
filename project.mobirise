@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -371,7 +371,7 @@
               "border-color": "@primaryColor"
             },
             "P": {
-              "text-align": "left"
+              "text-align": "center"
             }
           },
           "_name": "features7",
@@ -536,7 +536,7 @@
             }
           },
           "title1": "Tonight Newspaper<div>Kyiv, UA</div>",
-          "subtitle1": "&nbsp;Sales coordinator<div>Jul 10 to Nov 10</div>",
+          "subtitle1": "&nbsp;Sales coordinator<div>Jul 2010 to Nov 2010</div>",
           "caption1": "Responsibilities:<br>•\tProviding active and passive sales;<br>•\tInvolving new clients, holding meetings with them and signing contracts;<br>•\tMaking presentations for existing and potential clients.<br>•\tOrganizing meetings and negotiations for company leaders,<br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -551,7 +551,7 @@
             }
           },
           "title2": "National Technical University of Ukraine<div>Kyiv, UA</div>",
-          "subtitle2": "English Lecturer, Sep 09 to Jun 10",
+          "subtitle2": "English Lecturer<br>Sep 2009 to Jun 2010",
           "caption2": "Responsibilities:<br>•\tTeaching students (1-4 years);<br>•\tOrganizing conferences for FIOT department students;<br>•\tDevelopment of different kind of quizzes for IASA and FIOT department students;<br>•\tTaking part in scientific conferences concerning the latest methods of teaching English; <br>•\tDeveloping and holding finals for bachelor and master degree students.<br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -566,7 +566,7 @@
             }
           },
           "title3": "School # 194<br>Kyiv, Ukraine",
-          "subtitle3": "English Teacher, Sep 04 to June 07",
+          "subtitle3": "English Teacher<br>Sep 2004 to June 2007",
           "caption3": "<br>Responsibilities:<br>•\tTeaching pupils involving the latest methods of interactive group work;<br>•\tWorking with the children of all the age groups (6 – 17);<br>•\tDeveloping quizzes and tests for graduates.<br>•\tWorking with school documentation;<br>May 2003 — January 2004<br>9 months<br>PR agency «Clever Force».<br>Kyiv<br>consultant, promoter<br>Responsibilities:<br>•\tConsulting Ukrainian and foreign customers at exhibitions;<br>•\tPromoting new products of different companies;<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -581,7 +581,7 @@
             }
           },
           "title4": "Artek International&nbsp;<div></div>",
-          "subtitle4": "TV journalist, Jul to Aug 02 (two months)",
+          "subtitle4": "TV journalist<br> Jul 2002 to Aug 2002 (two months)",
           "caption4": "Responsibilities:<br>•\ttaking interviews from movie stars ;<br>•\tmaking reportings of bright events in the camp life;<br>•\tmaking a TV-diary of a cinema festival, stars life (in the camp) etc.<br><br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
@@ -614,7 +614,7 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             "P": {
-              "text-align": "left"
+              "text-align": "center"
             },
             "H5": {
               "color": "#ffffff"
@@ -699,7 +699,7 @@
             }
           },
           "title1": "University of Chicago<br>Illinois, United States of America",
-          "subtitle1": "<p>Pending, Certificate in Marketing &amp; Sales&nbsp;<br></p>",
+          "subtitle1": "<p>Certificate in Sales Strategy (pending)</p><br><p><br></p>",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -713,7 +713,7 @@
             }
           },
           "title2": "Brandeis Univerity, 2011<br>California, United States of America",
-          "subtitle2": "2011, Philosophy, history and cultrue (summer course)",
+          "subtitle2": "Philosophy, history and cultrue (summer course)<div>Full scholarship award<br>2011<br><br>Achieved fully scholarship to attend</div>",
           "caption2": "",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -727,7 +727,7 @@
             }
           },
           "title3": "Borys Grinchenko University<br>Kyiv, Ukraine",
-          "subtitle3": "2005-2009, Linguistics and Philology (Master of Languages Degree)",
+          "subtitle3": "Degree, Linguistics and Philology MA<br>2003-2009",
           "caption3": "The Master of Languages degree focused on:<br>= English<br>- French; and<br>- Foreign literature",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -840,7 +840,7 @@
             }
           },
           "title2": "Young Adult Professional Development Centre<br>Kyiv, Ukraine&nbsp;",
-          "subtitle2": "2002-2003, Journalism (including TV journalism) courses<div>Full scholarship</div>",
+          "subtitle2": "Journalism (including TV journalism) courses<br>Achieved fully scholarship award<br><div><br></div><div><br></div>",
           "caption2": "",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -853,8 +853,8 @@
               "family": "et-line"
             }
           },
-          "title3": "High School (# xx)<br>Kyiv, Ukraine",
-          "subtitle3": "2005",
+          "title3": "High School (#16)<br>Kyiv, Ukraine",
+          "subtitle3": "2004",
           "caption3": "Ukrainian equivalent of A levels in:<br>- Maths<br>- Science (physics, biology &amp; chemistry)<br>- Language and literature<br>- English<br>- French<br>- History<br>- Geography<br>- IT",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
