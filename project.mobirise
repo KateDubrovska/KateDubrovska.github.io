@@ -41,6 +41,12 @@
             "Theme"
           ],
           "_name": "header2",
+          "_styles": {
+            ".mbr-section-text B": {
+              "font-size": "19px",
+              "text-align": "center"
+            }
+          },
           "_anchor": "header2-b",
           "_params": {
             "imageSize": "70",
@@ -90,13 +96,7 @@
           },
           "title": "",
           "text": "<b>IT Account Executive &amp; Sales Professional</b><br>Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.docdroid.net/file/download/V0hj6eM/cv-kate-dubrovska.pdf\" data-toolbar=\"-mbrBtnMove\">or DOWNLOAD CONCISE CV.pdf</a>",
-          "_styles": {
-            ".mbr-section-text B": {
-              "font-size": "19px",
-              "text-align": "center"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://github.com/KateDubrovska/KateDubrovska.github.io/raw/master/CV%20-%20Kate%20Dubrovska.pdf\" data-toolbar=\"-mbrBtnMove\">or DOWNLOAD CV.pdf</a>"
         },
         {
           "_inherit": "menu",
@@ -258,7 +258,7 @@
           },
           "title1": "Master Communicator",
           "subtitle1": "English, Russian &amp; Ukrainian&nbsp;",
-          "caption1": "With a degree in linguistics and qualifications in television journalism, you can can count on me to get the message across.",
+          "caption1": "With a degree in linguistics and qualifications and practical experience in television journalism, you can can count on me to get the message across.",
           "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -440,7 +440,7 @@
             }
           },
           "title2": "<a href=\"http://ais.com.ua\" target=\"_blank\" class=\"text-info\">AIS Group</a><br>Kyiv, UA",
-          "subtitle2": "PR Specialist, Apr 2013 to July 2013",
+          "subtitle2": "PR Specialist, Apr 2013 to Jul 2013",
           "caption2": "- Developing and implementing PR strategies;<br>- liaising with and answering enquiries from media, individuals and other organisations;&nbsp;<br>-researching, writing and distributing press releases to targeted media;<br>- collating and analysing media coverage;<br>-writing and editing in-house magazines, case studies, speeches, articles and annual reports;<br>- preparing and supervising production of publicity brochures, handouts, direct mail leaflets, promotional videos, photographs and multimedia programmes;<br>- devising and coordinating photo opportunities;<br>- organising events including exhibitions, open days and press tours;<br>-maintaining and updating information on the organisation's website;<br>-sourcing and managing speaking and sponsorship opportunities;<br>-commissioning market research;<br>-fostering community relations through events and through involvement in community initiatives.<br><br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -457,7 +457,7 @@
             }
           },
           "title3": "Translation Consultant <br>Kyiv, UA",
-          "subtitle3": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">Proprietor, Jan 2007 to date</span><br>",
+          "subtitle3": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">Proprietor, Jan 2007 to April 2013</span><br>",
           "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">- Interpreter/translator for private and corporate clients.</span><span style=\"font-size: 1rem; line-height: 1.5;\">:</span><br>- translating documents, business correspondence on different subjects, such as IT, marketing, film making; <br>- interpreting public speeches, events, presentations;<br>- translating and sounding documentary movies.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -873,7 +873,7 @@
               "family": "et-line"
             }
           },
-          "title2": "Young Adult Professional Development Centre<br>Kyiv, Ukraine&nbsp;",
+          "title2": "Young Adult Professional Development Centre<div>Kyiv, Ukraine</div>",
           "subtitle2": "2001-2002<br>Journalism (including TV journalism) courses<br>Achieved fully scholarship award<br><div><br></div><div><br></div>",
           "caption2": "",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
@@ -887,8 +887,8 @@
               "family": "et-line"
             }
           },
-          "title3": "High School (#16)<br>Kyiv, Ukraine",
-          "subtitle3": "2004",
+          "title3": "<div><span style=\"font-size: 1.25rem; line-height: 1.2825;\">&nbsp;High School (#16)</span></div><div><span style=\"font-size: 1.25rem; line-height: 1.2825;\">Kyiv, Ukraine</span></div>",
+          "subtitle3": "1993-2003",
           "caption3": "Ukrainian equivalent of A levels in:<br>- Maths<br>- Science (physics, biology &amp; chemistry)<br>- Language and literature<br>- English<br>- French<br>- History<br>- Geography<br>- IT",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
@@ -1066,7 +1066,7 @@
           },
           "title4": "Work Ethic<br>",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Thrive on target and deadline driven projects and I &nbsp;NEVER give up. I believe I aquired the mentality to be relentless as a teenager when I began competing in and winning tennis and chess tournaments.",
+          "caption4": "Thrive on target and deadline driven projects and I &nbsp;NEVER give up. I believe I aquired the mentality to be relentless as a teenager when I began competing in and winning tennis and chess tournaments. I have been in consistent employment since&nbsp;",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
