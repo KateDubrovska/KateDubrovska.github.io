@@ -115,10 +115,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "3.25rem"
+              "font-size": "2.15rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "3.520rem"
+              "font-size": "2.328rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -150,7 +150,7 @@
           "_anchor": "ext_menu-0",
           "_params": {
             "bgColor": "#efefef",
-            "fontSize": "3.25",
+            "fontSize": "2.15",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -1127,6 +1127,63 @@
       },
       "components": [
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-m",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "Hire Me&nbsp;",
+          "subtitle": "If you've reviewed my CV and believe that I may benefit your firm, I'd be delighted to hear from you.",
+          "form": {
+            "action": "info@lateralenterprises.co.uk",
+            "alerts": {
+              "success": "Thanks for filling out form!"
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Name*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Phone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
           "_inherit": "menu",
           "_tags": [
             "Theme"
@@ -1153,10 +1210,10 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "3.25rem"
+              "font-size": "2.15rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "3.520rem"
+              "font-size": "2.328rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
@@ -1188,7 +1245,7 @@
           "_anchor": "ext_menu-k",
           "_params": {
             "bgColor": "#efefef",
-            "fontSize": "3.25",
+            "fontSize": "2.15",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -1267,63 +1324,6 @@
           "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
           "text2": "<p><strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\" class=\"text-white\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\" class=\"text-white\">+44 (207) 097 8557</a><br>Email: <a href=\"mailto:kate.dubrovskaya@icloud.com\" class=\"text-white\">kate.dubrovskaya@icloud.com</a><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a><br><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
           "text3": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-m",
-          "_params": {
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
-          },
-          "title": "Hire Me&nbsp;",
-          "subtitle": "If you've reviewed my CV and believe that I may benefit your firm, I'd be delighted to hear from you.",
-          "form": {
-            "action": "info@lateralenterprises.co.uk",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "title": "Name",
-                "visible": true,
-                "customTitle": "Name*"
-              },
-              "email": {
-                "title": "Email",
-                "visible": true,
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "title": "Phone",
-                "visible": true,
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
         }
       ]
     }
