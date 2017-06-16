@@ -493,6 +493,12 @@ h6,
 #header3-g .mbr-section-subtitle {
   text-align: center;
 }
+#header3-g H3 {
+  color: #ffffff;
+}
+#header3-g SMALL {
+  color: #000000;
+}
 #features7-e .card-subtitle {
   color: #bcbcbc;
 }
@@ -514,16 +520,26 @@ h6,
   color: #000000;
 }
 #features2-c .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2e2e2e;
+  background-color: #f3c649;
 }
 #features2-c .mbr-cards-col:nth-child(odd) .card-title {
   font-size: 20px;
+  color: #ffffff;
 }
 #features2-c .mbr-cards-col:nth-child(odd) .card-text {
   text-align: left;
 }
 #features2-j .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #2e2e2e;
+  background-color: #efefef;
+}
+#features2-j .mbr-cards-col:nth-child(odd) .card-title {
+  color: #000000;
+}
+#features2-j .mbr-cards-col:nth-child(even) .card-title {
+  color: #ffffff;
+}
+#features2-j .mbr-cards-col:nth-child(odd) .card-text {
+  color: #000000;
 }
 #header3-i .mbr-section-title,
 #header3-i .mbr-section-subtitle {

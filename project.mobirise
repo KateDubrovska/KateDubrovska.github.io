@@ -335,6 +335,12 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff"
+            },
+            "SMALL": {
+              "color": "#000000"
             }
           },
           "_tags": [
@@ -345,7 +351,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
+            "bgColor": "#f3c649",
             "showMeta": true
           },
           "title": "PROFESSIONAL EXPERIENCE",
@@ -648,13 +654,13 @@
           "_name": "features2",
           "_anchor": "features2-c",
           "_params": {
-            "columnsColor": "#2e2e2e",
+            "columnsColor": "#f3c649",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -681,7 +687,7 @@
             }
           },
           "title1": "University of Chicago<br>Illinois, United States of America",
-          "subtitle1": "2017, Marketing &amp; Sales (diploma)",
+          "subtitle1": "<p>2017, Marketing &amp; Sales (diploma)<br></p>",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -756,10 +762,11 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+              "background-color": "#f3c649"
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
-              "font-size": "20px"
+              "font-size": "20px",
+              "color": "#ffffff"
             },
             ".mbr-cards-col:nth-child(odd) .card-text": {
               "text-align": "left"
@@ -774,13 +781,13 @@
           "_name": "features2",
           "_anchor": "features2-j",
           "_params": {
-            "columnsColor": "#2e2e2e",
+            "columnsColor": "#efefef",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "bgColor": "#f3c649",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -882,7 +889,16 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#2e2e2e"
+              "background-color": "#efefef"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-title": {
+              "color": "#000000"
+            },
+            ".mbr-cards-col:nth-child(even) .card-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "color": "#000000"
             }
           }
         },
