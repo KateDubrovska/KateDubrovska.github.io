@@ -43,7 +43,7 @@
           "_name": "header2",
           "_anchor": "header2-b",
           "_params": {
-            "imageSize": "34",
+            "imageSize": "32",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/kate-background-2000x1920.jpg",
@@ -444,9 +444,9 @@
               "color": "#fff"
             }
           },
-          "title3": "KD Translation Buruea<br>Kyiv, UA",
+          "title3": "Translation Consultant <br>(self-employed)<br>Kyiv, UA",
           "subtitle3": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">Proprietor, Jan 2007 to date</span><br>",
-          "caption3": "Ap- Own business<br>- Interpreter/translator for private and corporate clients as well as for government.<br><br>Responsibilities:<br>•\tTranslating documents, business correspondence on different subjects, such as IT, marketing, film making etc; <br>•\tInterpreting public speeches, events, presentations etc.<br>•\tTranslating and sounding documentary movies etc.<br>",
+          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">- Interpreter/translator for private and corporate clients.</span><br><br>Responsibilities:<br>•\tTranslating documents, business correspondence on different subjects, such as IT, marketing, film making etc; <br>•\tInterpreting public speeches, events, presentations etc.<br>•\tTranslating and sounding documentary movies etc.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -461,7 +461,7 @@
             }
           },
           "title4": "Golden Staff<div>Kyiv, UA</div>",
-          "subtitle4": "English teacher and consultant to VIP clients<div>Oct 2007 to Apr 2013&nbsp;</div>",
+          "subtitle4": "&nbsp;oanEnglish teacher and consultant to VIP clients<div>Oct 2007 to Apr 2013&nbsp;</div>",
           "caption4": "English teacher and consultant for key clients<br>Responsibilities:<br>•\tBusiness English teacher – working with high-ranking executives; teaching them English in the context of their occupation;<br>•\tCallan Method English teacher. Tutoring company managers using special; Cambridge Method of fast-mastering a language (www.callan.co.uk );<br>•\tConsultancy for clients in choosing the most appropriate program;<br>•\tLeading speaking and discussion clubs;<br>•\tEvaluation and estimation of client’s results using the personal approach.<br>&nbsp;<br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
