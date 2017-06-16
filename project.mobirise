@@ -416,7 +416,7 @@
               "name": "desktop",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": "",
               "color": "#fff",
               "newWindow": false
@@ -433,9 +433,10 @@
               "name": "newspaper",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title2": "<a href=\"http://ais.com.ua\" target=\"_blank\" class=\"text-info\">AIS Group</a><br>Kyiv, UA",
@@ -449,9 +450,10 @@
               "name": "global",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title3": "Translation Consultant <br>Kyiv, UA",
@@ -465,9 +467,10 @@
               "name": "global",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title4": "Golden Staff<div>Kyiv, UA</div>",
@@ -481,9 +484,10 @@
               "name": "newspaper",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": 0,
-              "color": "#fff"
+              "color": "#fff",
+              "newWindow": false
             }
           },
           "title5": "Tonight Newspaper<br>Kyiv, UA",
@@ -550,8 +554,9 @@
               "name": "newspaper",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title1": "Tonight Newspaper<div>Kyiv, UA</div>",
@@ -565,8 +570,9 @@
               "name": "book-open",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title2": "National Technical University of Ukraine<div>Kyiv, UA</div>",
@@ -580,8 +586,9 @@
               "name": "book-open",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title3": "School # 194<br>Kyiv, Ukraine",
@@ -595,8 +602,9 @@
               "name": "video",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
-              "size": 0
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
             }
           },
           "title4": "Artek International&nbsp;<div></div>",
@@ -999,9 +1007,10 @@
               "name": "users",
               "family": "MobiriseIcons",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": 0,
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "newWindow": false
             }
           },
           "title1": "Communication",
@@ -1015,9 +1024,10 @@
               "name": "strategy",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "#top",
               "size": 0,
-              "color": "black"
+              "color": "#ffffff",
+              "newWindow": false
             }
           },
           "title2": "Analytical",
@@ -1047,9 +1057,10 @@
               "name": "target",
               "family": "et-line",
               "active": true,
-              "link": "https://mobirise.com",
+              "link": "index.html",
               "size": 0,
-              "color": "black"
+              "color": "#ffffff",
+              "newWindow": false
             }
           },
           "title4": "Work Ethics<br><br>",
