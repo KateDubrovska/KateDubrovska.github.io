@@ -436,8 +436,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
-              "name": "globe",
-              "family": "MobiriseIcons",
+              "name": "global",
+              "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
               "size": 0,
@@ -452,8 +452,8 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
-              "name": "globe",
-              "family": "MobiriseIcons",
+              "name": "global",
+              "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
               "size": 0,
@@ -573,7 +573,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "camera",
+              "name": "video",
               "family": "et-line",
               "active": true,
               "link": "https://mobirise.com",
