@@ -411,6 +411,10 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #f3c649;
 }
+#header2-b .mbr-section-text B {
+  font-size: 19px;
+  text-align: center;
+}
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
