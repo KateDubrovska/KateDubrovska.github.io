@@ -29,7 +29,7 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "",
+        "title": "Kate Dubrovska - CV",
         "meta_descr": "",
         "header_custom": "",
         "footer_custom": "",
@@ -89,7 +89,7 @@
             }
           },
           "title": "",
-          "text": "Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns.. ",
+          "text": "Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns.",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">or DOWNLOAD CV.pdf</a>"
         },
         {
