@@ -195,8 +195,8 @@
               "font-size": "16px"
             },
             ".iconbox": {
-              "background-color": "#ee7358",
-              "border-color": "#ee7358"
+              "background-color": "#f3c649",
+              "border-color": "#f3c649"
             },
             "P": {
               "color": "#ffffff"
@@ -211,13 +211,13 @@
           "_name": "features4",
           "_anchor": "features4-7",
           "_params": {
-            "iconsBgColor": "#ee7358",
+            "iconsBgColor": "#f3c649",
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#f3c649",
+            "bgColor": "#c1c1c1",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -231,7 +231,7 @@
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": true
+            "showButtons": false
           },
           "media1": {
             "iconFont": {
