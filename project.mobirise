@@ -43,7 +43,7 @@
           "_name": "header2",
           "_anchor": "header2-b",
           "_params": {
-            "imageSize": "32",
+            "imageSize": "70",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/kate-background-2000x1920.jpg",
