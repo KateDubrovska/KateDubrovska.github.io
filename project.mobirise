@@ -1140,7 +1140,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Terms of Website Use<br>Privacy &amp; Security Policy<br>Copyright (c) 2017 Kate Dubrovskaya."
+          "text": "<a href=\"page2.html\">Terms of Website Use</a><br>Privacy &amp; Security Policy<br>Copyright (c) 2017 Kate Dubrovskaya."
         }
       ]
     },
@@ -1530,7 +1530,7 @@
             "overlayOpacity": 0.8,
             "overlayColor": "#444444"
           },
-          "text": "Terms of Website Use<br>Privacy &amp; Security Policy<br>Copyright (c) 2017 Kate Dubrovskaya."
+          "text": "<a href=\"page2.html\">Terms of Website Use</a><br>Privacy &amp; Security Policy<br>Copyright (c) 2017 Kate Dubrovskaya."
         },
         {
           "_tags": [
