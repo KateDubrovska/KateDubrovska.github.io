@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Kate Dubrovska",
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -43,7 +43,7 @@
           "_name": "header2",
           "_anchor": "header2-b",
           "_params": {
-            "imageSize": "43",
+            "imageSize": "34",
             "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/kate-background-2000x1920.jpg",
@@ -53,9 +53,9 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": true,
-            "overlayOpacity": 0.3,
-            "overlayColor": "#000",
+            "overlay": false,
+            "overlayOpacity": "0",
+            "overlayColor": "#efefef",
             "inverse": false,
             "showTitle": false,
             "showText": true,
@@ -1120,7 +1120,7 @@
         }
       ]
     },
-    "page1.html": {
+    "contact.html": {
       "settings": {
         "title": "Site Creator Title",
         "meta_descr": "Site Creator Description"
