@@ -1147,7 +1147,7 @@
             "showTitle": true,
             "showSubTitle": true
           },
-          "title": "Hire Me&nbsp;",
+          "title": "<br>Hire Me&nbsp;",
           "subtitle": "If you've reviewed my CV and believe that I may benefit your firm, I'd be delighted to hear from you.",
           "form": {
             "action": "info@lateralenterprises.co.uk",
