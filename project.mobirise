@@ -540,7 +540,7 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": "4",
+            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
@@ -583,7 +583,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "book-open",
+              "name": "notebook",
               "family": "et-line",
               "active": true,
               "link": "#top",
@@ -593,37 +593,38 @@
           },
           "title3": "School # 194<br>Kyiv, Ukraine",
           "subtitle3": "English Teacher<br>Sep 2004 to June 2007",
-          "caption3": "<br>Responsibilities:<br>•\tTeaching pupils involving the latest methods of interactive group work;<br>•\tWorking with the children of all the age groups (6 – 17);<br>•\tDeveloping quizzes and tests for graduates.<br>•\tWorking with school documentation;<br>May 2003 — January 2004<br>9 months<br>PR agency «Clever Force».<br>Kyiv<br>consultant, promoter<br>Responsibilities:<br>•\tConsulting Ukrainian and foreign customers at exhibitions;<br>•\tPromoting new products of different companies;<br>",
+          "caption3": "<br>Responsibilities:<br>•\tTeaching pupils involving the latest methods of interactive group work;<br>•\tWorking with the children of all the age groups (6 – 17);<br>•\tDeveloping quizzes and tests for graduates.<br>•\tWorking with school documentation;<br><br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features3",
               "linkInNewWindow": false,
-              "name": "video",
-              "family": "et-line",
+              "name": "like",
+              "family": "MobiriseIcons",
               "active": true,
               "link": "#top",
               "size": 0,
               "newWindow": false
             }
           },
-          "title4": "Artek International&nbsp;<div></div>",
-          "subtitle4": "TV journalist<br> Jul 2002 to Aug 2002 (two months)",
-          "caption4": "Responsibilities:<br>•\ttaking interviews from movie stars ;<br>•\tmaking reportings of bright events in the camp life;<br>•\tmaking a TV-diary of a cinema festival, stars life (in the camp) etc.<br><br>",
+          "title4": "Clever Force PR Agency<div></div>",
+          "subtitle4": "Promotion Consultant<br> May 2003-Jan 2004",
+          "caption4": "•&nbsp;Responsibilities:<br>•\tConsulting Ukrainian and foreign customers at exhibitions;<br>•\tPromoting new products of different companies;<br><br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features3",
-              "name": "global",
+              "linkInNewWindow": false,
+              "name": "video-play",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "size": 0
             }
           },
-          "title5": "Artek International Children’s Camp",
-          "subtitle5": "TV journalist, Jul to Aug 02 (two months)",
-          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "title5": "Artek International&nbsp;",
+          "subtitle5": "TV journalist<div>Jul 2002 to Aug 2002 (two months)</div>",
+          "caption5": "Responsibilities:<br>•\ttaking interviews from movie stars ;<br>•\tmaking reportings of bright events in the camp life;<br>•\tmaking a TV-diary of a cinema festival, stars life (in the camp) etc.<br>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "iconFont": {
