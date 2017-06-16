@@ -522,6 +522,9 @@ h6,
 #features2-c .mbr-cards-col:nth-child(odd) .card-text {
   text-align: left;
 }
+#features2-j .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
+}
 #header3-i .mbr-section-title,
 #header3-i .mbr-section-subtitle {
   text-align: center;
