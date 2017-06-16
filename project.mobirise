@@ -109,7 +109,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "30px",
+              "font-size": "32px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -1103,48 +1103,6 @@
           "_tags": [
             "Theme"
           ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-6",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f3c649",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
-              "width": 128,
-              "link": "#top",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "link": "#top",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
-          "text2": "<p><strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\" class=\"text-white\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\" class=\"text-white\">+44 (207) 097 8557</a><br>Email: <a href=\"mailto:kate.dubrovskaya@icloud.com\" class=\"text-white\">kate.dubrovskaya@icloud.com</a><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a><br><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
-          "text3": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
           "_name": "footer1",
           "_anchor": "footer1-o",
           "_params": {
@@ -1237,7 +1195,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "30px",
+              "font-size": "32px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -1364,8 +1322,8 @@
               "newWindow": false
             }
           },
-          "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
-          "text2": "<p><strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\" class=\"text-white\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\" class=\"text-white\">+44 (207) 097 8557</a><br>Email: <a href=\"mailto:kate.dubrovskaya@icloud.com\" class=\"text-white\">kate.dubrovskaya@icloud.com</a><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a><br><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
+          "text1": "<br><br>",
+          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
           "text3": ""
         }
       ]
@@ -1400,7 +1358,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "30px",
+              "font-size": "32px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -1527,8 +1485,8 @@
               "newWindow": false
             }
           },
-          "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
-          "text2": "<p><strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\" class=\"text-white\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\" class=\"text-white\">+44 (207) 097 8557</a><br>Email: <a href=\"mailto:kate.dubrovskaya@icloud.com\" class=\"text-white\">kate.dubrovskaya@icloud.com</a><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a><br><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
+          "text1": "<br><br>",
+          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
           "text3": ""
         },
         {
@@ -1583,7 +1541,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "30px",
+              "font-size": "32px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -1756,8 +1714,8 @@
               "newWindow": false
             }
           },
-          "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
-          "text2": "<p><strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\" class=\"text-white\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\" class=\"text-white\">+44 (207) 097 8557</a><br>Email: <a href=\"mailto:kate.dubrovskaya@icloud.com\" class=\"text-white\">kate.dubrovskaya@icloud.com</a><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a><br><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
+          "text1": "<br><br>",
+          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
           "text3": ""
         }
       ]
