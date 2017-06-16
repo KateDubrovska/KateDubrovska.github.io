@@ -990,7 +990,7 @@
               "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black"
+              "color": "#ffffff"
             }
           },
           "title1": "Communication",
@@ -1022,12 +1022,12 @@
               "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black"
+              "color": "#ffffff"
             }
           },
-          "title3": "Computer",
+          "title3": "Information Technology",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Good command of Google products, Microsoft Office™ tools,<br>SalesForce, email trackers<br><br>SalesForce setting<br>",
+          "caption3": "y Good command of Google products, Microsoft Office™ tools,<br>SalesForce, email trackers<br><br>SalesForce setting<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -1041,9 +1041,9 @@
               "color": "black"
             }
           },
-          "title4": "as Relentless<br><br>",
+          "title4": "Work Ethics<br><br>",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Thrive on target and deadline driven projects and I NEVER give up. I believe I aquired this mentality as a teenager when I began competing and winning in tennis and chess tournaments.",
+          "caption4": "Thrive on target and deadline driven projects and I &nbsp;NEVER give up. I believe I aquired the mentality to be relentless as a teenager when I began competing in and winning tennis and chess tournaments.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
@@ -1088,7 +1088,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#c1c1c1",
+            "bgColor": "#f3c649",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -1115,7 +1115,7 @@
             }
           },
           "text1": "<strong>Place of Residence&nbsp;</strong><br><strong><br></strong>Kyiv, Ukraine<br><br>",
-          "text2": "<strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\">+44 (207) 097 8557</a>",
+          "text2": "<p><strong>Contacts</strong><br>\n<a href=\"mailto:kate.dubrovskaya@icloud.com\">Email me</a><br>\nUA: +<a href=\"tel:+380 (66) 462 14 09\" class=\"text-white\">380 (66) 462 14 09</a><br>\nUK: <a href=\"tel:+44 (207) 097 8557\" class=\"text-white\">+44 (207) 097 8557</a><br>Email: <a href=\"mailto:kate.dubrovskaya@icloud.com\" class=\"text-white\">kate.dubrovskaya@icloud.com</a><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a><br><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
           "text3": ""
         }
       ]
