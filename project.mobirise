@@ -960,8 +960,8 @@
           "_anchor": "features4-h",
           "_params": {
             "iconsBgColor": "#f3c649",
-            "paddingTop": "1",
-            "paddingBottom": 2,
+            "paddingTop": "0",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
@@ -1083,8 +1083,8 @@
           "_name": "contacts1",
           "_anchor": "contacts1-6",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
