@@ -52,7 +52,7 @@
             "imageSize": "70",
             "parallax": true,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/kate-background-2000x1920.jpg",
+            "bgImage": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1920.jpg",
             "bgColor": "#2e2e2e",
             "bgColorRadio": false,
             "bgVideo": {
