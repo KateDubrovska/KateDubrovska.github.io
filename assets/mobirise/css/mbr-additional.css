@@ -492,3 +492,9 @@ h6,
 #features4-7 H4 {
   color: #ffffff;
 }
+#features2-c .striped .mbr-cards-col:nth-child(2n+1) {
+  background-color: #2e2e2e;
+}
+#features2-c .mbr-cards-col:nth-child(odd) .card-title {
+  font-size: 20px;
+}
