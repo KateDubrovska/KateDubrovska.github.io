@@ -80,11 +80,12 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
               "linkInNewWindow": false,
-              "name": "code",
-              "family": "MobiriseIcons",
-              "link": "",
-              "size": 250,
-              "active": true
+              "name": "linkedin",
+              "family": "socicon",
+              "link": "https://www.linkedin.com/in/kate-dubrovskaya-9a5b2973/",
+              "size": "",
+              "active": true,
+              "newWindow": true
             }
           },
           "title": "",
