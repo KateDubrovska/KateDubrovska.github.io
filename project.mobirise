@@ -237,7 +237,7 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features4",
               "linkInNewWindow": false,
-              "name": "success",
+              "name": "cust-feedback",
               "family": "MobiriseIcons",
               "active": true,
               "link": "index.html",
@@ -247,8 +247,8 @@
             }
           },
           "title1": "Master Communicator",
-          "subtitle1": "Linguist and",
-          "caption1": "With a degree in linguistics, I speak English, Rusian and Ukrainian on a native level and French on an intermediate level. As a regular participant in Mafia game competitions , I have developed my diplomacy and pursuasion skills and this has benefitted my career tremendously.",
+          "subtitle1": "English, Russian &amp; Ukrainian&nbsp;",
+          "caption1": "With a degree in linguistics and qualifications in television journalism, I speak 3 languages at native lavel, and I compete in regdebating competions where I developed my diplomacy and pursuasieaon skills.",
           "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -281,23 +281,24 @@
             }
           },
           "title3": "Commercially Minded",
-          "subtitle3": "Loves gaining insight into clients' business",
-          "caption3": "My knowledge of current affairs and my extensive international travel history help me to make genuine commercial contibutions to client business and relate to clients from a range of cultures.",
+          "subtitle3": "Loves gaining insight into client business",
+          "caption3": "My knowledge of current affairs helps me to make genuine commercial contibutions to client business.",
           "button3": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features4",
-              "name": "linegraph",
+              "linkInNewWindow": false,
+              "name": "smile-face",
+              "family": "MobiriseIcons",
+              "active": true,
               "link": "https://mobirise.com",
               "size": 0,
-              "color": "black",
-              "family": "et-line"
+              "color": "black"
             }
           },
-          "title4": "Unlimited Sites",
-          "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "title4": "Personaable",
+          "subtitle4": "Visited over 30 countries accross 5 continents.",
+          "caption4": "I love working with and meeting new people. As a frequent international traveller, &nbsp;I am able to relate to clients from a range of cultures.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
