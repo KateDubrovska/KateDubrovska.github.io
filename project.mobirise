@@ -372,8 +372,8 @@
           "_anchor": "features7-e",
           "_params": {
             "iconsBgColor": "@primaryColor",
-            "paddingTop": "0",
-            "paddingBottom": "1",
+            "paddingTop": "1",
+            "paddingBottom": "0",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
