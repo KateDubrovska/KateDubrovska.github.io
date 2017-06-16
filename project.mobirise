@@ -372,7 +372,7 @@
             }
           },
           "title1": "University of Chicago<br>Illinois, United States of America",
-          "subtitle1": "Marketing &amp; Sales (diploma)",
+          "subtitle1": "2017, Marketing &amp; Sales (diploma)",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -386,7 +386,7 @@
             }
           },
           "title2": "Brandeis Univerity, 2011<br>California, United States of America",
-          "subtitle2": "Philosophy, history and cultrue (summer course)",
+          "subtitle2": "2011, Philosophy, history and cultrue (summer course)",
           "caption2": "",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
@@ -399,9 +399,9 @@
               "family": "et-line"
             }
           },
-          "title3": "Web Fonts",
-          "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "title3": "Borys Grinchenko Kyiv University<br>Kyiv, Ukraine",
+          "subtitle3": "2005-2009, Linguistics and Philology",
+          "caption3": "The Master of Languages degree focused on:<br>= English<br>- French; and<br>- Foreign literature",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -451,6 +451,9 @@
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
               "font-size": "20px"
+            },
+            ".mbr-cards-col:nth-child(odd) .card-text": {
+              "text-align": "left"
             }
           }
         },

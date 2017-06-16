@@ -498,3 +498,6 @@ h6,
 #features2-c .mbr-cards-col:nth-child(odd) .card-title {
   font-size: 20px;
 }
+#features2-c .mbr-cards-col:nth-child(odd) .card-text {
+  text-align: left;
+}
