@@ -6,6 +6,7 @@
 
 
 
+
 body,
 input,
 textarea,
@@ -418,7 +419,8 @@ h6,
 }
 #ext_menu-0 .navbar-caption {
   color: #ffffff;
-  font-size: 46px;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
 }
 #ext_menu-0 .navbar-toggler {
   color: #ffffff;
@@ -474,21 +476,7 @@ h6,
 }
 #ext_menu-0 .link[aria-expanded="true"],
 #ext_menu-0 .dropdown-item[aria-expanded="true"] {
-  color: #c0a375!important;
-}
-#header1-9 .mbr-section-title {
-  text-align: left;
-}
-#header1-9 .mbr-section-lead {
-  text-align: left;
-  color: #ffffff;
-  font-size: 36px;
-}
-#header1-9 .mbr-section-lead B {
-  text-align: left;
-}
-#header1-9 .mbr-section-lead SPAN {
-  color: #ffffff;
+  color: #f3c649!important;
 }
 #features4-7 .card-subtitle {
   color: #232323;
@@ -503,10 +491,4 @@ h6,
 }
 #features4-7 H4 {
   color: #ffffff;
-}
-#content7-5 P {
-  color: #ffffff;
-}
-#content7-5 H3 {
-  color: #ee7358;
 }
