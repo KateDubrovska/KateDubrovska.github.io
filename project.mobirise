@@ -57,7 +57,7 @@
             "overlayOpacity": "0",
             "overlayColor": "#efefef",
             "inverse": false,
-            "showTitle": false,
+            "showTitle": true,
             "showText": true,
             "showButtons": true,
             "showArrow": true
