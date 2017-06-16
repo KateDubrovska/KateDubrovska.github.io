@@ -492,6 +492,27 @@ h6,
 #features4-7 H4 {
   color: #ffffff;
 }
+#header3-g .mbr-section-title,
+#header3-g .mbr-section-subtitle {
+  text-align: center;
+}
+#features7-e .card-subtitle {
+  color: #bcbcbc;
+}
+#features7-e .iconbox {
+  background-color: #f3c649;
+  border-color: #f3c649;
+}
+#features7-e P {
+  text-align: left;
+}
+#msg-box8-f .mbr-section-title,
+#msg-box8-f p {
+  color: #fff;
+}
+#msg-box8-f .mbr-section-title {
+  color: #000000;
+}
 #features2-c .striped .mbr-cards-col:nth-child(2n+1) {
   background-color: #2e2e2e;
 }
