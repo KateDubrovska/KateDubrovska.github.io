@@ -484,10 +484,10 @@ h6,
   border-color: #f3c649;
 }
 #features4-7 P {
-  color: #ffffff;
+  color: #28324e;
 }
 #features4-7 H4 {
-  color: #ffffff;
+  color: #f3c649;
 }
 #header3-g .mbr-section-title,
 #header3-g .mbr-section-subtitle {
@@ -533,7 +533,7 @@ h6,
   text-align: left;
 }
 #features2-j .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #cccccc;
+  background-color: #efefef;
 }
 #features2-j .mbr-cards-col:nth-child(odd) .card-title {
   color: #000000;
@@ -548,10 +548,19 @@ h6,
 #header3-i .mbr-section-subtitle {
   text-align: center;
 }
+#header3-i H3 {
+  color: #ffffff;
+}
 #features4-h .card-subtitle {
   color: #bcbcbc;
 }
 #features4-h .iconbox {
   background-color: #f3c649;
   border-color: #f3c649;
+}
+#features4-h H4 {
+  color: #ffffff;
+}
+#features4-h P {
+  color: #28324e;
 }

@@ -199,10 +199,10 @@
               "border-color": "#f3c649"
             },
             "P": {
-              "color": "#ffffff"
+              "color": "#28324e"
             },
             "H4": {
-              "color": "#ffffff"
+              "color": "#f3c649"
             }
           },
           "_tags": [
@@ -217,7 +217,7 @@
             "bgImageRadio": false,
             "parallax": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#c1c1c1",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -672,7 +672,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#cccccc",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -699,7 +699,7 @@
             }
           },
           "title1": "University of Chicago<br>Illinois, United States of America",
-          "subtitle1": "<p>2017, Marketing &amp; Sales (diploma)<br></p>",
+          "subtitle1": "<p>Pending, Certificate in Marketing &amp; Sales&nbsp;<br></p>",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
@@ -793,7 +793,7 @@
           "_name": "features2",
           "_anchor": "features2-j",
           "_params": {
-            "columnsColor": "#cccccc",
+            "columnsColor": "#efefef",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -901,7 +901,7 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#cccccc"
+              "background-color": "#efefef"
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
               "color": "#000000"
@@ -918,6 +918,9 @@
           "_styles": {
             ".mbr-section-title, .mbr-section-subtitle": {
               "text-align": "center"
+            },
+            "H3": {
+              "color": "#ffffff"
             }
           },
           "_tags": [
@@ -928,7 +931,7 @@
           "_params": {
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#fff",
+            "bgColor": "#cccccc",
             "showMeta": false
           },
           "title": "Job Related Skills",
@@ -942,6 +945,12 @@
             ".iconbox": {
               "background-color": "#f3c649",
               "border-color": "#f3c649"
+            },
+            "H4": {
+              "color": "#ffffff"
+            },
+            "P": {
+              "color": "#28324e"
             }
           },
           "_tags": [
@@ -956,7 +965,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
