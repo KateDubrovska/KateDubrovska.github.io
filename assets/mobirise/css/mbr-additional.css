@@ -500,7 +500,7 @@ h6,
   color: #000000;
 }
 #features7-e .card-subtitle {
-  color: #bcbcbc;
+  color: #ffffff;
 }
 #features7-e .iconbox {
   background-color: #f3c649;
@@ -511,6 +511,9 @@ h6,
 }
 #features6-d P {
   text-align: left;
+}
+#features6-d H5 {
+  color: #ffffff;
 }
 #msg-box8-f .mbr-section-title,
 #msg-box8-f p {
@@ -530,7 +533,7 @@ h6,
   text-align: left;
 }
 #features2-j .striped .mbr-cards-col:nth-child(2n+1) {
-  background-color: #efefef;
+  background-color: #cccccc;
 }
 #features2-j .mbr-cards-col:nth-child(odd) .card-title {
   color: #000000;
@@ -549,6 +552,6 @@ h6,
   color: #bcbcbc;
 }
 #features4-h .iconbox {
-  background-color: #efefef;
-  border-color: #efefef;
+  background-color: #f3c649;
+  border-color: #f3c649;
 }

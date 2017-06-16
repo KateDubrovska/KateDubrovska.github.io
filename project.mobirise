@@ -364,7 +364,7 @@
           ],
           "_styles": {
             ".card-subtitle": {
-              "color": "#bcbcbc"
+              "color": "#ffffff"
             },
             ".iconbox": {
               "background-color": "@primaryColor",
@@ -383,7 +383,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -461,7 +461,7 @@
             }
           },
           "title4": "Golden Staff<div>Kyiv, UA</div>",
-          "subtitle4": "tuEnglish teacher and consultant to VIP clients<div>Oct 2007 to Apr 2013&nbsp;</div>",
+          "subtitle4": "English teacher and consultant to VIP clients<div>Oct 2007 to Apr 2013&nbsp;</div>",
           "caption4": "English teacher and consultant for key clients<br>Responsibilities:<br>•\tBusiness English teacher – working with high-ranking executives; teaching them English in the context of their occupation;<br>•\tCallan Method English teacher. Tutoring company managers using special; Cambridge Method of fast-mastering a language (www.callan.co.uk );<br>•\tConsultancy for clients in choosing the most appropriate program;<br>•\tLeading speaking and discussion clubs;<br>•\tEvaluation and estimation of client’s results using the personal approach.<br>&nbsp;<br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
@@ -508,7 +508,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -615,6 +615,9 @@
           "_styles": {
             "P": {
               "text-align": "left"
+            },
+            "H5": {
+              "color": "#ffffff"
             }
           }
         },
@@ -669,7 +672,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -790,7 +793,7 @@
           "_name": "features2",
           "_anchor": "features2-j",
           "_params": {
-            "columnsColor": "#efefef",
+            "columnsColor": "#cccccc",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
@@ -898,7 +901,7 @@
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "_styles": {
             ".striped .mbr-cards-col:nth-child(2n+1)": {
-              "background-color": "#efefef"
+              "background-color": "#cccccc"
             },
             ".mbr-cards-col:nth-child(odd) .card-title": {
               "color": "#000000"
@@ -937,8 +940,8 @@
               "color": "#bcbcbc"
             },
             ".iconbox": {
-              "background-color": "#efefef",
-              "border-color": "#efefef"
+              "background-color": "#f3c649",
+              "border-color": "#f3c649"
             }
           },
           "_tags": [
@@ -947,13 +950,13 @@
           "_name": "features4",
           "_anchor": "features4-h",
           "_params": {
-            "iconsBgColor": "#efefef",
+            "iconsBgColor": "#f3c649",
             "paddingTop": "1",
             "paddingBottom": 2,
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f3c649",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
