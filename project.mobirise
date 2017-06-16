@@ -964,7 +964,7 @@
           "_anchor": "features4-h",
           "_params": {
             "iconsBgColor": "#f3c649",
-            "paddingTop": "0",
+            "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
