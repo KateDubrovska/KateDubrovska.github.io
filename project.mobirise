@@ -935,12 +935,13 @@
           },
           "logo": {
             "image": {
-              "src": "qrc:/web/app/builder/../../../web/app/themes/mobirise3/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
               "width": 128,
               "link": "#top",
               "alt": "",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
@@ -949,7 +950,6 @@
               "family": "MobiriseIcons",
               "link": "#top",
               "size": 0,
-              "active": true,
               "newWindow": false
             }
           },
