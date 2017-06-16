@@ -411,9 +411,6 @@ h6,
 .mbr-gallery-filter li:hover {
   color: #f3c649;
 }
-.scrollToTop_wraper {
-  opacity: 0 !important;
-}
 #ext_menu-0 .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -524,4 +521,15 @@ h6,
 }
 #features2-c .mbr-cards-col:nth-child(odd) .card-text {
   text-align: left;
+}
+#header3-i .mbr-section-title,
+#header3-i .mbr-section-subtitle {
+  text-align: center;
+}
+#features4-h .card-subtitle {
+  color: #bcbcbc;
+}
+#features4-h .iconbox {
+  background-color: #f2f2f2;
+  border-color: #f2f2f2;
 }
