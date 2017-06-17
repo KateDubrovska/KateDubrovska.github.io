@@ -1154,7 +1154,7 @@
             "showSubTitle": true
           },
           "title": "<br>Hire Me&nbsp;",
-          "subtitle": "If you've reviewed my CV and believe that I could benefit your firm, I'd be happy to hear from you.",
+          "subtitle": "If you've reviewed my CV and believe that I could benefit your firm, please complete the form below.",
           "form": {
             "action": "info@lateralenterprises.co.uk",
             "alerts": {
@@ -1178,7 +1178,7 @@
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Please specify the tasks, functions and responsibilities of the position and, if possible, the salary range."
+                "customTitle": "Please specify the tasks, functions and responsibilities of the position being considered and, if possible, the salary range."
               }
             }
           },
