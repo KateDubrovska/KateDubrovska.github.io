@@ -109,7 +109,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "32px",
+              "font-size": "20px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -178,7 +178,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/cv-2-128x128.png",
               "height": 128,
               "alt": "Mobirise",
               "link": "#top",
@@ -1195,7 +1195,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "32px",
+              "font-size": "20px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -1358,7 +1358,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "32px",
+              "font-size": "20px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
@@ -1541,7 +1541,7 @@
             },
             ".navbar-caption": {
               "color": "#ffffff",
-              "font-size": "32px",
+              "font-size": "20px",
               "font-family": "'Montserrat', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
