@@ -23,7 +23,9 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 36,
-    "versionPublish": "3.12.1"
+    "versionPublish": "3.12.1",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -71,7 +73,7 @@
           "media": {
             "image": {
               "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/boo-1-2000x1593.jpg",
+              "src": "@PROJECT_PATH@/assets/images/asset%2018@4x-1400x1385.png",
               "link": "",
               "alt": "",
               "title": "",
@@ -90,8 +92,8 @@
               "family": "socicon",
               "link": "https://www.linkedin.com/in/kate-dubrovskaya-9a5b2973/",
               "size": "50",
-              "active": true,
-              "newWindow": true
+              "newWindow": true,
+              "active": true
             }
           },
           "title": "",
@@ -731,7 +733,7 @@
             }
           },
           "title1": "University of Chicago<br>Illinois, United States of America",
-          "subtitle1": "<p>Certificate in Sales Strategy (pending)</p><br><p><br></p>",
+          "subtitle1": "<p>Certificate in Sales Strategy 2017</p><br><p><br></p>",
           "caption1": "",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
