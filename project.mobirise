@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "Kate Dubrovska",
+    "name": "Kate Dubrovska - CV",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
@@ -19,20 +19,34 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true,
         "isRtl": false
-      }
+      },
+      "additionalSetColors": [
+        "#0077b5"
+      ]
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 36,
-    "versionPublish": "3.12.1",
+    "uniqCompNum": 37,
+    "versionPublish": "4.7.6",
     "path": "@PROJECT_PATH@",
-    "screenshot": "screenshot.png"
+    "screenshot": "screenshot.png",
+    "siteFonts": [],
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "https://katedubrovska.com",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "",
+    "noImageResize": "",
+    "google-analytics": "",
+    "cookiesAlert": "",
+    "gdpr": "",
+    "sitemapSwitcher": "on"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
         "title": "Kate Dubrovska - CV",
-        "meta_descr": "",
+        "meta_descr": "IT Sales Professional & \nAccount Executive",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -51,24 +65,24 @@
           },
           "_anchor": "header2-b",
           "_params": {
-            "imageSize": "70",
-            "parallax": true,
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1920.jpg",
-            "bgColor": "#2e2e2e",
-            "bgColorRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": "0",
-            "overlayColor": "#efefef",
-            "inverse": false,
             "showTitle": true,
             "showText": true,
             "showButtons": true,
-            "showArrow": true
+            "inverse": false,
+            "showArrow": true,
+            "imageSize": "70",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/fullsizerender-2000x1920.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#2e2e2e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#efefef",
+            "overlayOpacity": "0"
           },
           "media": {
             "image": {
@@ -88,17 +102,18 @@
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
               "linkInNewWindow": false,
-              "name": "linkedin",
-              "family": "socicon",
+              "name": "linkedin-square",
+              "family": "FontAwesome",
               "link": "https://www.linkedin.com/in/kate-dubrovskaya-9a5b2973/",
-              "size": "50",
+              "size": "100",
               "newWindow": true,
-              "active": true
+              "active": true,
+              "color": "#0077b5"
             }
           },
           "title": "",
-          "text": "<b>IT Account Executive &amp; Sales Professional</b><br>Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://github.com/KateDubrovska/KateDubrovska.github.io/raw/master/CV%20-%20Kate%20Dubrovska.pdf\" data-toolbar=\"-mbrBtnMove\">or DOWNLOAD CV.pdf</a>"
+          "text": "<b>IT Sales Professional &amp; </b><br><b>Account Executive</b><br>Commercially minded yet personable; team orientated yet original; diplomatic yet relentless. Thrives in deadline and target-driven campaigns.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#features4-7\" data-toolbar=\"-mbrBtnMove\">MORE</a> <a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"assets/files/CV_Kate_Dubrovska.pdf\" data-toolbar=\"-mbrBtnMove\"><span class=\"mbrib-download mbr-iconfont mbr-iconfont-btn\"></span>or DOWNLOAD CV.pdf</a>"
         },
         {
           "_inherit": "menu",
@@ -116,13 +131,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#fac51c"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#fac51c"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#fac51c",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-family": "'Roboto', sans-serif"
             },
@@ -145,7 +160,7 @@
               "background": "#efefef"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#fac51c",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -161,6 +176,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-0",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#efefef",
             "fontSize": "2.15",
             "fontName": {
@@ -168,22 +189,16 @@
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "css": "'Roboto', sans-serif"
             },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/cv-2-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/cv-3-128x128.png",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "#top",
+              "alt": "CV",
+              "link": "assets/files/CV_Kate_Dubrovska.pdf",
               "title": "",
               "linkInNewWindow": false
             },
@@ -193,12 +208,13 @@
               "name": "documents",
               "family": "et-line",
               "link": "#top",
-              "size": "20",
-              "newWindow": false
+              "size": "40",
+              "newWindow": false,
+              "color": "#fac51c"
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KATE DUBROVSKA<br><br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">HIRE ME NOW</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"hire_me.html\">HIRE ME NOW</a></li>"
         },
         {
           "_styles": {
@@ -223,27 +239,27 @@
           "_name": "features4",
           "_anchor": "features4-7",
           "_params": {
-            "iconsBgColor": "#f3c649",
-            "paddingTop": "1",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": false,
-            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "4",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#f3c649",
+            "paddingTop": "1",
+            "paddingBottom": 2,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1-2000x1333.jpg",
+            "parallax": false,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -259,7 +275,7 @@
             }
           },
           "title1": "Master Communicator",
-          "subtitle1": "English, Russian &amp; Ukrainian&nbsp;",
+          "subtitle1": "Fluent in <br>English, Russian &amp; Ukrainian&nbsp;",
           "caption1": "With a degree in linguistics and qualifications and practical experience in television journalism, you can can count on me to get the message across.",
           "button1": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media2": {
@@ -276,7 +292,7 @@
             }
           },
           "title2": "Relentless",
-          "subtitle2": "Thrives on targets",
+          "subtitle2": "Thrives on <br>targets",
           "caption2": "A difficult project will only make me more motivated to get the job done.",
           "button2": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media3": {
@@ -294,7 +310,7 @@
           },
           "title3": "Commercially Minded",
           "subtitle3": "Loves gaining insight into client business",
-          "caption3": "My interest in current affairs helps me to make genuine commercial contibutions to client business.",
+          "caption3": "My interest in current affairs helps me to make genuine commercial contibutions to clients' business.",
           "button3": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-danger\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -309,7 +325,7 @@
             }
           },
           "title4": "Personable",
-          "subtitle4": "Visited over 30 countries across 5 continents.",
+          "subtitle4": "Visited 35 countries <br>across 5 continents",
           "caption4": "I love working with and meeting new people. As a frequent international traveller, &nbsp;I am able to relate to clients from a range of cultures.",
           "button4": "<a data-app-btn=\"true\" href=\"#top\" class=\"btn btn-primary\" data-toolbar=\"-mbrBtnMove\">MORE</a>",
           "media5": {
@@ -361,10 +377,10 @@
           "_name": "header3",
           "_anchor": "header3-g",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#f3c649",
-            "showMeta": true
+            "bgColor": "#f3c649"
           },
           "title": "PROFESSIONAL EXPERIENCE",
           "meta": "Total years of work experience: 9 years, 10 months"
@@ -376,47 +392,48 @@
           ],
           "_styles": {
             ".card-subtitle": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "text-align": "center"
             },
             ".iconbox": {
               "background-color": "@primaryColor",
               "border-color": "@primaryColor"
             },
             "P": {
-              "text-align": "center"
+              "text-align": "left"
             }
           },
           "_name": "features7",
           "_anchor": "features7-e",
           "_params": {
-            "iconsBgColor": "@primaryColor",
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "4",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": "1",
+            "paddingBottom": "0",
+            "columns": "5",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
-              "name": "desktop",
-              "family": "MobiriseIcons",
+              "name": "file-pdf-o",
+              "family": "FontAwesome",
               "active": true,
               "link": "#top",
               "size": "",
@@ -424,11 +441,28 @@
               "newWindow": false
             }
           },
-          "title1": "<a href=\"http://COGNIANCE.COM\" target=\"_blank\" class=\"text-info\">COGNIANCE</a><br>KYIV, UA",
-          "subtitle1": "Business Development, Jul 2013 to date",
-          "caption1": "&nbsp;- Expert in FinTech, HealthTech, IoT, AdTech;<br>- engaging with and organising personal meetings with prospectice customers including CEOs of FTSE 100 companies;<br>- &nbsp;preparing agendas for prospect meetings;<br><span style=\"font-size: 1rem; line-height: 1.5;\">- negotiating with potential clients;</span><br><span style=\"font-size: 1rem; line-height: 1.5;\">- r</span>epresenting the company at large IT trade shows in the US, UK &amp; Europe; and<br><span style=\"font-size: 1rem; line-height: 1.5;\">- organizing sales workshops for colleagues</span><br>",
+          "title1": "Readdle Inc<br><div>San Francisco, CA /</div><div>Odessa, UA&nbsp;</div>",
+          "subtitle1": "<br>Sales, September 2017 – present<br><br>",
+          "caption1": "• Meeting Readdle's sales targets through effective planning and dedication<br><br> • Devising strategies and techniques necessary for achieving the sales targets<br><br>&nbsp;• Mapping potential customers and generating leads<br><br> • Promoting the firm at conferences in the United States<br><br>• Motivating team and ensuring they're delivering the desired results<br><br>• Maintaining and improving existing client relationships.&nbsp;<br><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "computer",
+              "family": "iconsMind",
+              "active": true,
+              "link": "#top",
+              "size": 0,
+              "color": "#fff",
+              "newWindow": false
+            }
+          },
+          "title2": "Cogniance<br>Menlo Park, CA /<br><div>Kyiv, UA</div>",
+          "subtitle2": "<br>Business Development, Jul 2013 to Sep 2017",
+          "caption2": "• Expert in FinTech, HealthTech, IoT, AdTech<br><br>• Engaging with and organising personal meetings with prospectice customers including CEOs of FTSE 100 companies<br><br>• Preparing agendas for meetings with prospects<br><br>• Negotiating with potential clients<br><br>• Representing the company at large IT trade shows in the US, UK &amp; Europe<br><br>• Organizing sales workshops for colleagues.<br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
+          "media3": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
@@ -441,26 +475,9 @@
               "newWindow": false
             }
           },
-          "title2": "<a href=\"http://ais.com.ua\" target=\"_blank\" class=\"text-info\">AIS Group</a><br>Kyiv, UA",
-          "subtitle2": "PR Specialist, Apr 2013 to Jul 2013",
-          "caption2": "- Developing and implementing PR strategies and&nbsp;answering press enquiries;&nbsp;<br>-writing press releases,&nbsp;analysing media coverage and commissioning market research;<br>- writing and editing in-house magazines, case studies, speeches, articles and reports as well as&nbsp;preparing and supervising production of promotional material;<br>- organising events, including exhibitions, <br>and press tours, and arranging speaking, sponsorship, and photo opportunities for them; <br>- fostering community relations through community events and intitiatives.<br>-maintaining firm's website;<br><br>",
-          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
-          "media3": {
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-features7",
-              "linkInNewWindow": false,
-              "name": "global",
-              "family": "et-line",
-              "active": true,
-              "link": "#top",
-              "size": 0,
-              "color": "#fff",
-              "newWindow": false
-            }
-          },
-          "title3": "Translation Consultant <br>Kyiv, UA",
-          "subtitle3": "<span style=\"font-size: 0.875rem; line-height: 1.7857;\">Proprietor, Jan 2007 to April 2013</span><br>",
-          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">- Interpreter/translator for private and corporate clients.</span><span style=\"font-size: 1rem; line-height: 1.5;\">:</span><br>- translating documents &amp; business correspondence in multiple industries, such as IT, marketing, film making; <br>- co-anchoring and translating public speeches and &nbsp;presentations;<br>- translating and sounding documentary movies.<br>",
+          "title3": "AIS <br>Group<div>Kyiv, UA</div>",
+          "subtitle3": "<br>PR Specialist, Apr 2013 to Jul 2013<br><br>",
+          "caption3": "•  Developing and implementing PR strategies and answering press enquiries<br><br>• Writing press releases, analysing media coverage and commissioning market research<br><br>• Managing the firm's website as well as writing and editing in-house magazines, case studies, speeches, articles and reports as well as preparing and supervising production of promotional material<br><br>• Organising events, including exhibitions, and press tours, and arranging speaking, sponsorship, and photo opportunities for them<br><br>• Fostering community relations through community events and intitiatives.<br><br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -475,16 +492,16 @@
               "newWindow": false
             }
           },
-          "title4": "Golden Staff<div>Kyiv, UA</div>",
-          "subtitle4": "&nbsp;English teacher and consultant to VIP clients<div>Oct 2007 to Apr 2013&nbsp;</div>",
-          "caption4": "- Business English teacher – working with high-ranking executives; teaching English in the context of their occupation;<br>- Callan Method English teacher. Tutoring company managers using&nbsp;Cambridge method of fast-mastering a language;<br>- consultancy for clients in choosing the most efficient program;<br>- leading speaking and discussion clubs;<br>- evaluating and estimating client’s results using the personal approach.<br>&nbsp;<br>",
+          "title4": "Translation <br>Consultant&nbsp;<div>Kyiv, UA</div>",
+          "subtitle4": "<br>Proprietor, Jan 2007 to April 2013<br><br>",
+          "caption4": "• Interpreter/translator for private and corporate clients<br><br>• Translating documents &amp; business correspondence in multiple industries, such as IT, marketing, film making<br><br>• Co-anchoring and translating public speeches and  presentations<br><br>• Translating and sounding documentary movies.<br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features7",
               "linkInNewWindow": false,
-              "name": "newspaper",
-              "family": "et-line",
+              "name": "teacher",
+              "family": "iconsMind",
               "active": true,
               "link": "#top",
               "size": 0,
@@ -492,9 +509,9 @@
               "newWindow": false
             }
           },
-          "title5": "Tonight Newspaper<br>Kyiv, UA",
-          "subtitle5": "&nbsp;Sales coordinator<div><br></div>",
-          "caption5": "Responsibilities:<br>•\tProviding active and passive sales;<br>•\tInvolving new clients, holding meetings with them and signing contracts;<br>•\tMaking presentations for existing and potential clients.<br>•\tOrganizing meetings and negotiations for company leaders,<br>",
+          "title5": "Golden <br>Staff<div>Kyiv, UA</div>",
+          "subtitle5": "<div>&nbsp;</div><div><span style=\"background-color: initial; font-size: 0.875rem;\">English teacher and consultant to VIP clients</span><br></div>",
+          "caption5": "• Business English teacher – working with high-ranking executives; teaching English in the context of their occupation<br><br>• Callan Method English teacher. Tutoring company managers using Cambridge method of fast-mastering a language<br><br>• Consultancy for clients in choosing the most efficient program<br><br>• Leading speaking and discussion clubs<br><br>• Evaluating and estimating client’s results using the personal approach.<br>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "iconFont": {
@@ -520,34 +537,37 @@
           "_name": "features6",
           "_styles": {
             "P": {
-              "text-align": "center"
+              "text-align": "left"
             },
             "H5": {
               "color": "#ffffff"
+            },
+            "DIV": {
+              "text-align": "center"
             }
           },
           "_anchor": "features6-d",
           "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "5",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "columns": "6",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -561,9 +581,9 @@
               "newWindow": false
             }
           },
-          "title1": "Tonight Newspaper<div>Kyiv, USA</div>",
-          "subtitle1": "&nbsp;Sales coordinator<div>Jul 2010 to Nov 2010</div>",
-          "caption1": "- Providing active and passive sales;<br>- involving new clients, holding meetings with them and signing contracts;<br>- making presentations for existing and potential clients;<br>- organizing meetings and negotiations for company leaders.<br>",
+          "title1": "Tonight <br>Newspaper<div>Philadelphia, PA&nbsp;</div>",
+          "subtitle1": "<br>Sales<div>Jul 2010 to Nov 2010</div>",
+          "caption1": "• Conducting on active and passive sales<br><br>• Involving new clients, holding meetings with them and signing contracts<br><br>• Making presentations for existing and potential clients<br><br>• Organizing meetings and negotiations for company leaders.<br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -577,9 +597,9 @@
               "newWindow": false
             }
           },
-          "title2": "National Technical University of Ukraine<div>Kyiv, UA</div>",
-          "subtitle2": "English Lecturer<br>Sep 2009 to Jun 2010",
-          "caption2": "- Lecturing university students (in years 1-4);<br>- organizing conferences and developing different forms of assesments, including writing finals exams, for IASA and FIOT students;<br>- was on panel focused on better methods for teaching English; <br>",
+          "title2": "National Technical University of Ukraine",
+          "subtitle2": "<br>English Lecturer<br>Sep 2009 to Jun 2010<br>",
+          "caption2": "• Lecturing to university students (in years 1-4)<br><br>• Organizing conferences and developing different forms of assesments, including writing finals exams for IASA and FIOT students<br><br>• Was on a panel focused on developing more efficient for teaching English.<br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -593,9 +613,9 @@
               "newWindow": false
             }
           },
-          "title3": "School # 194<br>Kyiv, Ukraine",
-          "subtitle3": "English Teacher<br>Sep 2004 to June 2007",
-          "caption3": "<span style=\"font-size: 1rem; line-height: 1.5;\">:</span><br>- Teaching pupils involving the latest methods of interactive group work;<br>- working with the children of all the age groups (6 – 17);<br>- developing quizzes and tests for graduates;<br>• working with school documentation.<br><br>",
+          "title3": "School <br># 194<br>Kyiv, UA",
+          "subtitle3": "<br>English Teacher<br>Sep 2004 to June 2007",
+          "caption3": "• Teaching pupils using the latest methods of interactive group work<br><br>• Working with children of all age groups (6 – 17)<br><br>• Developing quizzes and tests<br><br>• Working with school documentation.<br><br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -609,9 +629,9 @@
               "newWindow": false
             }
           },
-          "title4": "Clever Force PR Agency<div></div>",
-          "subtitle4": "Promotion Consultant<br> May 2003-Jan 2004",
-          "caption4": "•<br><br>- Consulting Ukrainian and foreign customers at exhibitions;<br>- promoting new products of different companies;<br><br>",
+          "title4": "Clever Force PR Agency<br>Kyiv, UA<div></div>",
+          "subtitle4": "<br>Promotion Consultant<br> May 2003-Jan 2004",
+          "caption4": "• Advising Ukrainian and foreign clients<br><br>• Promoting new products of different companies.<br><br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
@@ -624,23 +644,24 @@
               "size": 0
             }
           },
-          "title5": "Artek International&nbsp;",
-          "subtitle5": "TV journalist<div>Jul 2002 to Aug 2002 (two months)</div>",
-          "caption5": ":<br>- taking interviews from movie stars ;<br>- making reportings of bright events in the camp life;<br>- making a TV-diary of a cinema festival, stars life (in the camp).<br>",
+          "title5": "Artek <br>International<br>Kyiv, UA&nbsp;",
+          "subtitle5": "<br>Internship in TV Journalism<div>Jul 2002 to Aug 2002</div>",
+          "caption5": "• Performing interviews with movie stars<br><br>• Making reports of camp life events<br><br>• Making a TV-diary of a cinema festival.<br>",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
             "iconFont": {
-              "active": true,
               "class": "mbr-iconfont mbr-iconfont-features3",
+              "linkInNewWindow": false,
               "name": "global",
-              "link": "https://mobirise.com",
-              "size": 0,
-              "family": "et-line"
+              "family": "et-line",
+              "active": true,
+              "link": "",
+              "size": "1"
             }
           },
-          "title6": "Host Anywhere",
-          "subtitle6": "Don't limit yourself to just one platform",
-          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "title6": "",
+          "subtitle6": "",
+          "caption6": "",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>"
         },
         {
@@ -658,23 +679,23 @@
           "_name": "msg-box8",
           "_anchor": "msg-box8-f",
           "_params": {
+            "showTitle": true,
+            "showText": false,
+            "showButton": false,
             "paddingTop": "1",
             "paddingBottom": "1",
-            "parallax": false,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "bgColor": "#efefef",
+            "parallax": false,
             "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showText": false,
-            "showButton": false
+            "overlayOpacity": 0.5
           },
           "title": "EDUCATION",
           "text": "<p>Article header with background image and parallax effect.</p>",
@@ -700,27 +721,27 @@
           },
           "_anchor": "features2-c",
           "_params": {
-            "columnsColor": "#f3c649",
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": false,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "columnsColor": "#f3c649",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#efefef",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -762,7 +783,7 @@
           },
           "title3": "Borys Grinchenko University<br>Kyiv, Ukraine",
           "subtitle3": "Degree, Linguistics and Philology MA<br>2003-2009",
-          "caption3": "The Master of Languages degree focused on:<br>= English<br>- French; and<br>- Foreign literature",
+          "caption3": "The Master of Languages degree focused on:<br>•  English<br>•  French<br>• Foreign literature",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -829,27 +850,27 @@
           },
           "_anchor": "features2-j",
           "_params": {
-            "columnsColor": "#efefef",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f3c649",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "3",
             "showImages": false,
             "showTitles": true,
             "showSubtitles": true,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "columnsColor": "#efefef",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f3c649",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -891,7 +912,7 @@
           },
           "title3": "<div><span style=\"font-size: 1.25rem; line-height: 1.2825;\">&nbsp;High School (#16)</span></div><div><span style=\"font-size: 1.25rem; line-height: 1.2825;\">Kyiv, Ukraine</span></div>",
           "subtitle3": "1993-2003",
-          "caption3": "Ukrainian equivalent of A levels in:<br>- Maths<br>- Science (physics, biology &amp; chemistry)<br>- Language and literature<br>- English<br>- French<br>- History<br>- Geography<br>- IT",
+          "caption3": "Ukrainian equivalent of A levels in:<br>• Maths<br>• Science (physics, biology &amp; chemistry)<br>• Language and literature<br>•  English<br>•  French<br>•  History<br>•  Geography<br>•  IT",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -951,10 +972,10 @@
           "_name": "header3",
           "_anchor": "header3-i",
           "_params": {
+            "showMeta": false,
             "paddingTop": 1,
             "paddingBottom": 1,
-            "bgColor": "#cccccc",
-            "showMeta": false
+            "bgColor": "#cccccc"
           },
           "title": "Job Related Skills",
           "meta": "By John Smith posted July 20, 2016"
@@ -981,27 +1002,27 @@
           "_name": "features4",
           "_anchor": "features4-h",
           "_params": {
-            "iconsBgColor": "#f3c649",
-            "paddingTop": "1",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#cccccc",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222",
-            "columns": "4",
             "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
-            "showButtons": false
+            "showButtons": false,
+            "iconsBgColor": "#f3c649",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
           },
           "media1": {
             "iconFont": {
@@ -1018,7 +1039,7 @@
           },
           "title1": "Communication",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "My communication skills come in handy when dealing with potential  clients, internal communication, giving presentations and for&nbsp;mentoring colleagues.<br><span style=\"font-size: 1rem; line-height: 1.5;\">I speak, read and write 3 languages at native lavel and I regularly compete in debating games whererby I have developed top class diplomacy and pursuasion skills.</span><br>",
+          "caption1": "<span style=\"font-size: 1rem; line-height: 1.5;\">I speak, read and write 3 languages at native lavel and I regularly compete in debating events through which I have developed skills in diplomacy, pursuasion and public speaking.</span><br><span style=\"font-size: 1rem; line-height: 1.5;\"><br></span><br><span style=\"font-size: 1rem; line-height: 1.5;\">My communication skills are effective when dealing with potential clients, internal communication, giving presentations and for mentoring colleagues.<br></span><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -1035,7 +1056,7 @@
           },
           "title2": "Analytical",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "&nbsp;employ the analytical and strategic skills I have during my 16 year career as a semi-professional chess player.",
+          "caption2": "&nbsp;Employing my analytical and memory abilities, which are aided by my experience as a semi-professional chess player.",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
             "iconFont": {
@@ -1051,7 +1072,7 @@
           },
           "title3": "Information Technology",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Good command of Google products, Microsoft Office™ tools,<br>SalesForce, email trackers.<br><br><br>",
+          "caption3": "Good command of Google products, Microsoft Office™ tools,<br>SalesForce, HubSpot and other marketing software.<br>",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
@@ -1068,7 +1089,7 @@
           },
           "title4": "Work Ethic<br>",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Thrive on target and deadline driven projects and I &nbsp;NEVER give up. I believe I aquired the mentality to be relentless as a teenager when I began competing in and winning tennis and chess tournaments. I have been in consistent employment since&nbsp;",
+          "caption4": "I have been in consistent employment from a young age and I thrive on target and deadline driven projects. I believe I aquired the mentality to be relentless when I began competing in and winning tennis and chess tournaments as a teenager.&nbsp;",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
@@ -1111,22 +1132,353 @@
             "paddingTop": 2,
             "paddingBottom": 2,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#323232",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
           },
-          "text": "<a href=\"page2.html\">Terms of Website Use</a><br><a href=\"page3.html\">Privacy &amp; Security Policy</a><br>Copyright (c) 2017 Kate Dubrovska"
+          "text": "<a href=\"terms.html\">Terms of Website Use</a><br><a href=\"privacy.html\">Privacy &amp; Security Policy</a><br>Copyright (c) 2017 Kate Dubrovska"
         }
       ]
     },
-    "contact.html": {
+    "terms.html": {
       "settings": {
-        "title": "Site Creator Title",
-        "meta_descr": "Site Creator Description"
+        "title": "Terms of Website Use",
+        "meta_descr": "Terms of use of KateDubrovska.com",
+        "header_custom": "\n"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".link": {
+              "font-size": "2.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "2.328rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#d6d6d6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e7e7e7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#efefef"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-p",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#efefef",
+            "fontSize": "2.15",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cv-3-128x128.png",
+              "height": 128,
+              "alt": "CV",
+              "link": "assets/files/CV_Kate_Dubrovska.pdf",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "documents",
+              "family": "et-line",
+              "link": "#top",
+              "size": "40",
+              "newWindow": false,
+              "color": "#fac51c"
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KATE DUBROVSKA<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"hire_me.html\">HIRE ME NOW</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"terms.html\">Terms of Website Use</a><br><a href=\"privacy.html\">Privacy &amp; Security Policy</a><br>Copyright (c) 2017 Kate Dubrovska"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-u",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": 1,
+            "bgColor": "#fff"
+          },
+          "text": "<p>I, Kate Dubrovskaya, own and operate this website.</p><p><br></p><p>Using this site is subject to these terms of use.</p><p><br></p><p>By using the site, you accept and agree to be bound by these terms of use.</p><p><br></p><p>I may make changes to this site from time to time, and may notify you of these changes by reasonable means from time to time. See ‘last updated’ statement above for when we last changed them. Using the site following any changes constitutes acceptance of these changes.</p><p><br></p><p>You are responsible for all access to the site using your internet connection, even if accessed by another person.</p><p>I reserve the right to restrict your access to the site or a part of it. I may grant you access to a restricted area and we may withdraw that permission at any time.</p><p><br></p><p>I will try to ensure that the site is available at all times but cannot guarantee that the site or any individual feature will always be available and/or error free. The site may be unavailable during upgrades or maintenance.</p><p><br></p><p>The intellectual property rights in the site and all of the text, pictures, videos and other content made available on it are owned by the respective owners. You may not print or otherwise make copies of any of this content without our express permission or the permission of the owners.</p><p><br></p><p>The web information you have access to on this site is subject to the following limitations:</p><p><br></p><p>The web information may not be up-to-date or provide all relevant material pertaining to the content it addresses</p><p></p><p><br></p><p>The web information may not be copied by you or provided to anyone else with the exception of one print copy or download for your further reading as well as showing that copy to a person or organisation that is providing advice or assistance.</p><p><br></p><p>You will only access the web information through a standard internet browser (e.g. Chrome, Firefox, Microsoft Edge, Safari, or Opera). In particular, you will not use any software or device to copy, transfer or download any of the web information or our website to enable you or another person to run our website.</p><p><br></p><p>I provide the site on an ‘as is’ basis and make no guarantees as to the quality, completeness or accuracy of any content on the site. To the maximum extent permitted by law, I expressly exclude:</p><p>all conditions, warranties and other terms that might otherwise be implied by law into these Terms of Use; and</p><p>any and all liability to you, whether arising under these Terms of Use or otherwise in connection with your use of the Site.</p><p><br></p><p>The foregoing is a comprehensive limitation of liability that applies to all damages of any kind, including (without limitation) compensatory, direct, indirect or consequential damages, loss of data, income or profit, loss of or damage to property and claims of third parties.</p><p><br></p><p>Notwithstanding the foregoing, nothing in these Terms of Use is intended to exclude or limit any liability that may not by law be excluded or limited, and in particular none of the exclusions and limitations in this clause are intended to limit any rights you may have as a consumer under local law or other statutory rights which may not be excluded, nor in any way to exclude or limit my liability to you for death or personal injury resulting from my negligence or that of my agents.</p><p><br></p><p>Your permission to use the site is personal and may not be transferred nor used for commercial purposes. Your use of the site depends upon your compliance with the rules of conduct set out in these terms of use and you agree that you will not:</p><ul><li>use the Site for any fraudulent or unlawful purpose;</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">use the Site to defame, abuse, harass, stalk, threaten or otherwise violate the rights of others, including without limitation others' privacy rights or rights of publicity;</span></li></ul><ul><li>impersonate any person or entity, falsely state or otherwise misrepresent your affiliation with any person or entity in connection with the Site; or express or imply that we endorse any statement you make;</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">interfere with or disrupt the operation of the Site or the servers or networks used to make the Site available; or violate any requirements, procedures, policies or regulations of such networks;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">transmit or otherwise make available in connection with the Site any virus, worm, Trojan horse or other computer code that is harmful or invasive or may or is intended to damage the operation of, or to monitor the use of, any hardware, software, or equipment;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">reproduce, duplicate, copy, sell, resell, or otherwise exploit for any commercial purposes, any portion of, use of, or access to the Site;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">modify, adapt, translate, reverse engineer, decompile or disassemble any portion of the Site. If you wish to reverse engineer any part of the Site to create an interoperable program you must contact us and we may provide interface data subject to verification of your identity and other information;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">remove any copyright, trade mark or other proprietary rights notice from the Site or materials originating from the Site;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">frame or mirror any part of the Site without our express prior written consent;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">create a database by systematically downloading and storing Site content;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">use any manual or automatic device in any way to gather Site content or reproduce or circumvent the navigational structure or presentation of the Site without our express prior written consent. Notwithstanding the foregoing,I grant the operators of public online search engines limited permission to use search retrieval applications to reproduce materials from the Site for the sole purpose of and solely to the extent necessary for creating publicly available searchable indices of such materials solely in connection with each operator's public online search service.</span></li></ul><p><br></p><p>I reserve the right to revoke these exceptions either generally or in specific instances.</p><p><br></p><p>The site may provide links to other websites and online resources. I am neither responsible for nor endorse any external sites or resources. Using these external websites and resources is at your own risk.</p><p><br></p><p>I may block any links to or from our site. I may allow you to link to the site directly from another site and you agree that if we do you will remove any link promptly on our request.</p><p><br></p><p>These terms of use are in effect until terminated. I may at any time and for any reason terminate your access to or use the site. If I do so, you will not have the right to bring claims against me or my affiliates regarding such a termination.I and my affiliates will not be liable for any termination of your access to the site.</p><p><br></p><p>These terms of use are governed by and in accordance with the laws of Ukraine, and the courts of Ukraine will have non-exclusive jurisdiction over any claim or dispute arising in connection with these terms of use.</p><p><br></p><p><b>Communication, customer service and complaints</b></p><p><br></p><p>If you have any queries or complaints about my website , you can contact me via using the methods on this site.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">I may also need to communicate with you by email or phone to discuss your enquiry or by the postal address you have provided in the contact form..</span></p>"
+        }
+      ]
+    },
+    "privacy.html": {
+      "settings": {
+        "title": "Privacy & Security",
+        "meta_descr": "Kate Dubrovska's Privacy Policy",
+        "header_custom": "\n"
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff",
+              "font-size": "20px",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            },
+            ".navbar-toggler": {
+              "color": "#fac51c"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#fac51c"
+            },
+            ".link, .dropdown-item": {
+              "color": "#fac51c",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "font-family": "'Roboto', sans-serif"
+            },
+            ".link": {
+              "font-size": "2.15rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "2.328rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#d6d6d6"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e7e7e7!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#efefef"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#fac51c",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#f3c649!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-v",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#efefef",
+            "fontSize": "2.15",
+            "fontName": {
+              "name": "Roboto",
+              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
+              "css": "'Roboto', sans-serif"
+            },
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/cv-3-128x128.png",
+              "height": 128,
+              "alt": "CV",
+              "link": "assets/files/CV_Kate_Dubrovska.pdf",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "linkInNewWindow": false,
+              "name": "documents",
+              "family": "et-line",
+              "link": "#top",
+              "size": "40",
+              "newWindow": false,
+              "color": "#fac51c",
+              "active": true
+            }
+          },
+          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KATE DUBROVSKA<br><br></a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"hire_me.html\">HIRE ME NOW</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-x",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "<a href=\"terms.html\">Terms of Website Use</a><br><a href=\"privacy.html\">Privacy &amp; Security Policy</a><br>Copyright (c) 2017 Kate Dubrovska"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content1",
+          "_anchor": "content1-z",
+          "_params": {
+            "paddingTop": "7",
+            "paddingBottom": "3",
+            "bgColor": "#fff"
+          },
+          "text": "<p>1.This website is brought to you by Kate Dubrovska. I take the privacy of my website users very seriously. I ask that you read this Privacy and Security Policy ('the Policy') carefully as it contains important information about how I will use your personal data.\n\n2.For the purposes of the UK Data Protection Act 1998, Kate Dubrovska, which owns HepSolved ('I' or 'me') is the 'data controller' (ie the company who is responsible for, and controls the processing of, your personal data).\n\nPersonal data I may collect about you\n\n3.I will obtain personal data about you such as your name, address, payment details, prescription details, medical history whenever you contact me for any reason.\n\n4.For example, I will obtain your personal data when you contact complete an online form or call me. I may also obtain sensitive personal data about you when you make an order with me. If you provide such information, you will be consenting to my processing it for the purpose of providing my services to you.\n\n5. I may monitor your use of this website through the use of cookies and similar tracking devices. For example, I may monitoring how many times you visit, which pages you go to, traffic data, location data and the originating domain name of a user's internet service provider. This information helps me to build a profile of my users. Some of this data will be aggregated or statistical, which means that I will not be able to identify you individually. Please see further the section on 'Use of cookies' below.\n\n6. Occasionally I may receive information about you from other sources (such as credit reference agencies) which I will add to the information which I already hold about you in order to help me provide services to you.\n\nHow I use your personal data\n\n7. I will use your personal data for the purposes described in the data protection notice that was given to you at the time your data were obtained. These purposes include:\n\nto help me identify you and any accounts you hold with me\nadministration\nresearch, statistical analysis and behavioural analysis\ncustomer profiling and analysing your purchasing preferences\nmarketing--see 'Marketing and opting out' below\nfraud prevention and detection\nbilling and order fulfilment\ncredit scoring and credit checking--see 'Credit checking' below\ncustomising this website and its content to your particular preferences\nto notify you of any changes to this website or to my services which may affect you\nsecurity vetting\nimproving my services\n\nMarketing and opting out\n\n8. Unless you have asked me not to do so, I may contact you by mail, telephone, SMS, text/picture/video message and email about other medication sourcing services which may be of interest to you. If you prefer not to receive any direct marketing communications from me, you can opt out at any time. See further 'Your rights' below.\n\nDisclosure of your personal data\n\n9.I may disclose your personal data to:\n\nother companies within my group\nmy agents and service providers, such as doctors or pharmacists\ncredit reference agents--see 'Credit checking' below\nlaw enforcement agencies in connection with any investigation to help prevent unlawful activity\nKeeping your data\n\n10.I will use technical and organisational measures to safeguard your personal data, for example:\n\naccess to your account is controlled by password and username which are unique to you\nI store your personal data on secure servers\nall my websites are encrypted using SSL technology\npayment details are encrypted using SSL technology\n11.Whilst I will use all reasonable efforts to safeguard your personal data, you acknowledge that the use of the internet is not entirely and for this reason I cannot guarantee the security or integrity of any personal data which are transferred from you or to you via the internet.\n\nMonitoring\n\n12. I may monitor and record communications with you such as telephone conversations and emails for the purpose of quality assurance, training, fraud prevention and compliance.\n\nCredit checking\n\n13. To enable me and other companies in my group to make credit decisions about you for fraud prevention and money laundering purposes, I may search the files of credit reference agencies who will record the search. I may disclose information about how you conduct your account to such agencies and your information may be linked to records relating to other people living at the same address with whom you are financially linked. Other credit grantors may use this information to make credit decisions about you and the people with whom you are financially associated, as well as for fraud prevention, debtor tracing and money laundering purposes. If you provide false or inaccurate information and I suspect fraud, I will record this.\n\nInformation about other individuals\n\n14. If you give me information on behalf of someone else, you confirm that the other person has appointed you to act on his/her behalf and has agreed that you can:\n\ngive consent on his/her behalf to the processing of his or her personal data\nreceive on his/her behalf any data protection notices\ngive consent to the transfer of his/her personal data abroad\ngive consent to the processing of his or her personal medical information.\nUse of cookies\n\nA cookie is a small text file which is placed onto your computer (or other electronic device) when you access my website. I use cookies and other online tracking devices such as (specify, eg web beacons, action tags, Local Shared Objects, single-pixel gifs)] on this website to:\n\nrecognise you whenever you visit this website (this speeds up your access to the site as you do not have to log on each time)\nobtain information about your preferences, online movements and use of the internet\ncarry out research and statistical analysis to help improve my content, and services and to help me better understand my customer requirements and interests\ntarget my marketing and advertising campaigns more effectively by providing interest-based advertisements that are personalised to your interests&nbsp;make your online experience more efficient and enjoyable.\nThe information I obtain from my use of cookies will not usually contain your personal data. Although I may obtain information about your computer [or other electronic device] such as your IP address, your browser and/or other internet log information, this will not usually identify you personally. In certain circumstances I may collect personal information about you - but only where you voluntarily provide it (eg by completing an online form).\n\nIn most cases I will need your consent in order to use cookies on this website. The exception is where the cookie is essential in order for me to provide you with a service you have requested (eg to enable you to put items in your shopping basket and use my check-out process).\n\nYour Consent\n\nIf you visit my website when your browser is set to accept cookies, I will interpret this as an indication that you consent to my use of cookies and other similar technologies as described in this Privacy Policy. If you change your mind in the future about letting me use cookies, you can modify the settings of your browser to disable cookies completely.\n\nThird-party cookies\n\nI work with third-party suppliers who may also set cookies on my website, for example (specify, eg Facebook, Twitter, YouTube and Adobe Flashplayer which I use to display video content). These third-party suppliers are responsible for the cookies they set on my site. If you want further information please go to the website for the relevant third party. You will find additional information in the table below.]\n\nTransfers of data out of the EEA\n\n15. When you engaged my services, you agreed that I may transfer your personal data to entities such as pharmacies, doctors and shipping agents who are based outside the European Economic Area and who are necessary for me to provide my services to you. Rest assured that I will always ensure any transfer is subject to appropriate security measures to safeguard your personal data.\n\nYour rights\n\n16. You have the right, subject to the payment of a small fee (currently £50 GBP) to request access to personal data which I may process about you. If you wish to exercise this right you should:\n\nput your request in writing\ninclude proof of your identity and address (eg a copy of your driving licence or passport, and a recent utility or credit card bill)\nattach a cheque in the amount of £50 (or the equivalent in USD) made payable to Kate Dubrovska\nspecify the personal data you want access to, including any account or reference numbers where applicable.\n\n17. You have the right to require me to correct any inaccuracies in your data free of charge. If you wish to exercise this right you should:\n\nput your request in writing\nprovide me with enough information to identify you (eg account number, username, registration details)\nspecify the information that is incorrect and what it should be replaced with.\n\n18.You also have the right to ask me to stop processing your personal data for direct marketing purposes. If you wish to exercise this right you should:\nput your request in writing via my contact form and simply write \"unsubscribe me\" and provide me with information to identify you (eg account number, username, registration details.)\n\n19.if your objection is not to direct marketing in general, but to direct marketing by a particular channel (eg email or telephone) please specify the channel you are objecting to..\n\nMy contact details\n\n20.I welcome your feedback and questions. If you wish to contact me, please send an email or call me on +44-203-290-7826. D. My registered office is Hygeia Building, 2nd Floor, 66-68 College Road, HARROW, HA1 1BE, UK.\n\n21. I may change this privacy policy from time to time. You should check this policy occasionally to ensure you are aware of the most recent version which will apply each time you access this website.\n\n</p>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_anchor": "contacts1-w",
+          "_params": {
+            "paddingTop": "4",
+            "paddingBottom": "0",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f3c649",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
+              "width": 128,
+              "link": "#top",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobile",
+              "family": "MobiriseIcons",
+              "link": "#top",
+              "size": 0,
+              "newWindow": false
+            }
+          },
+          "text1": "<br><br>",
+          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
+          "text3": ""
+        }
+      ]
+    },
+    "hire_me.html": {
+      "settings": {
+        "title": "Hire Kate Dubrovska",
+        "meta_descr": "IT Sales Professional & Account Executive",
+        "header_custom": "\n",
+        "html_before": ""
       },
       "components": [
         {
@@ -1141,26 +1493,26 @@
           },
           "_anchor": "form1-m",
           "_params": {
+            "showTitle": true,
+            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": "4",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true,
-            "showSubTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "<br>Hire Me&nbsp;",
           "subtitle": "If you've reviewed my CV and believe that I could benefit your firm, please complete the form below.",
           "form": {
-            "action": "info@lateralenterprises.co.uk",
+            "action": "Kate.dubrovskaya007@gmail.com",
             "alerts": {
-              "success": "Thank you for your enquiry. I'll be in touch shortly."
+              "success": "Thank you for your proposal. I'll be in touch shortly."
             },
             "fields": {
               "name": {
@@ -1180,11 +1532,11 @@
               },
               "message": {
                 "title": "Message",
-                "customTitle": "Please specify the tasks, functions and responsibilities of the position being considered and, if possible, the salary range."
+                "customTitle": "Please specify the tasks, functions and responsibilities of the position you're proposing as well as the salary range."
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>"
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SUBMIT</a>"
         },
         {
           "_inherit": "menu",
@@ -1202,13 +1554,13 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
             },
             ".navbar-toggler": {
-              "color": "#ffffff"
+              "color": "#fac51c"
             },
             ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
+              "background-color": "#fac51c"
             },
             ".link, .dropdown-item": {
-              "color": "#ffffff",
+              "color": "#fac51c",
               "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "font-family": "'Roboto', sans-serif"
             },
@@ -1231,7 +1583,7 @@
               "background": "#efefef"
             },
             ".bg-color.transparent .link": {
-              "color": "#ffffff",
+              "color": "#fac51c",
               "transition": "none"
             },
             ".bg-color.transparent.opened .link": {
@@ -1247,6 +1599,12 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-k",
           "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
             "bgColor": "#efefef",
             "fontSize": "2.15",
             "fontName": {
@@ -1254,22 +1612,16 @@
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
               "css": "'Roboto', sans-serif"
             },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
+            "fontColor": "#fac51c",
+            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
+              "src": "@PROJECT_PATH@/assets/images/cv-3-128x128.png",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "#top",
+              "alt": "CV",
+              "link": "assets/files/CV_Kate_Dubrovska.pdf",
               "title": "",
               "linkInNewWindow": false
             },
@@ -1279,446 +1631,13 @@
               "name": "documents",
               "family": "et-line",
               "link": "#top",
-              "size": "20",
-              "newWindow": false
+              "size": "40",
+              "newWindow": false,
+              "color": "#fac51c"
             }
           },
           "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KATE DUBROVSKA<br><br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">HIRE ME NOW</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-l",
-          "_params": {
-            "paddingTop": "1",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f3c649",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
-              "width": 128,
-              "link": "#top",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "link": "#top",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "text1": "<br><br>",
-          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
-          "text3": ""
-        }
-      ]
-    },
-    "page2.html": {
-      "settings": {
-        "title": "Terms os Website Use",
-        "meta_descr": "Site Maker Description"
-      },
-      "components": [
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-s",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
-        },
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-family": "'Roboto', sans-serif"
-            },
-            ".link": {
-              "font-size": "2.15rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "2.328rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#d6d6d6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#e7e7e7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#efefef"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f3c649!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-p",
-          "_params": {
-            "bgColor": "#efefef",
-            "fontSize": "2.15",
-            "fontName": {
-              "name": "Roboto",
-              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "css": "'Roboto', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "#top",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "documents",
-              "family": "et-line",
-              "link": "#top",
-              "size": "20",
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KATE DUBROVSKA<br><br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">HIRE ME NOW</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-q",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f3c649",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
-              "width": 128,
-              "link": "#top",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "link": "#top",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "text1": "<br><br>",
-          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
-          "text3": ""
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-r",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<a href=\"page2.html\">Terms of Website Use</a><br><a href=\"page3.html\">Privacy &amp; Security Policy</a><br>Copyright (c) 2017 Kate Dubrovska"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-u",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>I, Kate Dubrovskaya, own and operate this website.</p><p><br></p><p>Using this site is subject to these terms of use.</p><p><br></p><p>By using the site, you accept and agree to be bound by these terms of use.</p><p><br></p><p>We may make changes to this site from time to time, and we may notify you of these changes by reasonable means from time to time. See ‘last updated’ statement above for when we last changed them. Using the site following any changes constitutes acceptance of these changes.</p><p><br></p><p>You are responsible for all access to the site using your internet connection, even if accessed by another person.</p><p>I reserve the right to restrict your access to the site or a part of it. I may grant you access to a restricted area and we may withdraw that permission at any time.</p><p><br></p><p>I will try to ensure that the site is available at all times but cannot guarantee that the site or any individual feature will always be available and/or error free. The site may be unavailable during upgrades or maintenance.</p><p><br></p><p>The intellectual property rights in the site and all of the text, pictures, videos and other content made available on it are owned by the respective owners. You may not print or otherwise make copies of any of this content without our express permission or the permission of the owners.</p><p><br></p><p>The web information you have access to on this site is subject to the following limitations:</p><p><br></p><p>The web information may not be up-to-date or provide all relevant material pertaining to the content it addresses</p><p></p><p><br></p><p>The web information may not be copied by you or provided to anyone else with the exception of one print copy or download for your further reading as well as showing that copy to a person or organisation that is providing advice or assistance.</p><p><br></p><p>You will only access the web information through a standard internet browser (e.g. Chrome, Firefox, Microsoft Edge, Safari, or Opera). In particular, you will not use any software or device to copy, transfer or download any of the web information or our website to enable you or another person to run our website.</p><p><br></p><p>I provide the site on an ‘as is’ basis and make no guarantees as to the quality, completeness or accuracy of any content on the site. To the maximum extent permitted by law, I expressly exclude:</p><p>all conditions, warranties and other terms that might otherwise be implied by law into these Terms of Use; and</p><p>any and all liability to you, whether arising under these Terms of Use or otherwise in connection with your use of the Site.</p><p><br></p><p>The foregoing is a comprehensive limitation of liability that applies to all damages of any kind, including (without limitation) compensatory, direct, indirect or consequential damages, loss of data, income or profit, loss of or damage to property and claims of third parties.</p><p><br></p><p>Notwithstanding the foregoing, nothing in these Terms of Use is intended to exclude or limit any liability that may not by law be excluded or limited, and in particular none of the exclusions and limitations in this clause are intended to limit any rights you may have as a consumer under local law or other statutory rights which may not be excluded, nor in any way to exclude or limit my liability to you for death or personal injury resulting from my negligence or that of my agents.</p><p><br></p><p>Your permission to use the site is personal and may not be transferred nor used for commercial purposes. Your use of the site depends upon your compliance with the rules of conduct set out in these terms of use and you agree that you will not:</p><ul><li>use the Site for any fraudulent or unlawful purpose;</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">use the Site to defame, abuse, harass, stalk, threaten or otherwise violate the rights of others, including without limitation others' privacy rights or rights of publicity;</span></li></ul><ul><li>impersonate any person or entity, falsely state or otherwise misrepresent your affiliation with any person or entity in connection with the Site; or express or imply that we endorse any statement you make;</li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">interfere with or disrupt the operation of the Site or the servers or networks used to make the Site available; or violate any requirements, procedures, policies or regulations of such networks;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">transmit or otherwise make available in connection with the Site any virus, worm, Trojan horse or other computer code that is harmful or invasive or may or is intended to damage the operation of, or to monitor the use of, any hardware, software, or equipment;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">reproduce, duplicate, copy, sell, resell, or otherwise exploit for any commercial purposes, any portion of, use of, or access to the Site;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">modify, adapt, translate, reverse engineer, decompile or disassemble any portion of the Site. If you wish to reverse engineer any part of the Site to create an interoperable program you must contact us and we may provide interface data subject to verification of your identity and other information;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">remove any copyright, trade mark or other proprietary rights notice from the Site or materials originating from the Site;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">frame or mirror any part of the Site without our express prior written consent;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">create a database by systematically downloading and storing Site content;</span></li><li><span style=\"font-size: 1.07rem; line-height: 1.5;\">use any manual or automatic device in any way to gather Site content or reproduce or circumvent the navigational structure or presentation of the Site without our express prior written consent. Notwithstanding the foregoing,I grant the operators of public online search engines limited permission to use search retrieval applications to reproduce materials from the Site for the sole purpose of and solely to the extent necessary for creating publicly available searchable indices of such materials solely in connection with each operator's public online search service.</span></li></ul><p><br></p><p>I reserve the right to revoke these exceptions either generally or in specific instances.</p><p><br></p><p>The site may provide links to other websites and online resources. I am neither responsible for nor endorse any external sites or resources. Using these external websites and resources is at your own risk.</p><p><br></p><p>I may block any links to or from our site. I may allow you to link to the site directly from another site and you agree that if we do you will remove any link promptly on our request.</p><p><br></p><p>These terms of use are in effect until terminated. I may at any time and for any reason terminate your access to or use the site. If I do so, you will not have the right to bring claims against me or my affiliates regarding such a termination.I and my affiliates will not be liable for any termination of your access to the site.</p><p><br></p><p>These terms of use are governed by and in accordance with the laws of Ukraine, and the courts of Ukraine will have non-exclusive jurisdiction over any claim or dispute arising in connection with these terms of use.</p><p><br></p><p><b>Communication, customer service and complaints</b></p><p><br></p><p>If you have any queries or complaints about my website , you can contact me via using the methods on this site.</p><p><br></p><p><span style=\"font-size: 1.07rem; line-height: 1.5;\">I may also need to communicate with you by email or phone to discuss your enquiry or by the postal address you have provided in the contact form..</span></p>"
-        }
-      ]
-    },
-    "page3.html": {
-      "settings": {
-        "title": "Privay & Security",
-        "meta_descr": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff",
-              "font-size": "20px",
-              "font-family": "'Montserrat', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff",
-              "googleLink": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "font-family": "'Roboto', sans-serif"
-            },
-            ".link": {
-              "font-size": "2.15rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "2.328rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#d6d6d6"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#e7e7e7!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#efefef"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#f3c649!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-v",
-          "_params": {
-            "bgColor": "#efefef",
-            "fontSize": "2.15",
-            "fontName": {
-              "name": "Roboto",
-              "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
-              "css": "'Roboto', sans-serif"
-            },
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": true,
-            "logo": true,
-            "showBrand": true,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "#top",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "linkInNewWindow": false,
-              "name": "documents",
-              "family": "et-line",
-              "link": "#top",
-              "size": "20",
-              "newWindow": false
-            }
-          },
-          "brand": "<a class=\"navbar-caption text-black\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"index.html\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KATE DUBROVSKA<br><br></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"contact.html\">HIRE ME NOW</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_anchor": "footer1-x",
-          "_params": {
-            "paddingTop": 2,
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#323232",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "<a href=\"page2.html\">Terms of Website Use</a><br><a href=\"page3.html\">Privacy &amp; Security Policy</a><br>Copyright (c) 2017 Kate Dubrovska"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-y",
-          "_params": {
-            "paddingTop": 1,
-            "paddingBottom": 1,
-            "bgColor": "#fff"
-          },
-          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools <a href=\"http://google.com/\">available</a> today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "content1",
-          "_anchor": "content1-z",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "3",
-            "bgColor": "#fff"
-          },
-          "text": "<p>1.This website is brought to you by Kate Dubrovska. I take the privacy of my website users very seriously. I ask that you read this Privacy and Security Policy ('the Policy') carefully as it contains important information about how I will use your personal data.\n\n2.For the purposes of the UK Data Protection Act 1998, Kate Dubrovska, which owns HepSolved ('I' or 'me') is the 'data controller' (ie the company who is responsible for, and controls the processing of, your personal data).\n\nPersonal data I may collect about you\n\n3.I will obtain personal data about you such as your name, address, payment details, prescription details, medical history whenever you contact me for any reason.\n\n4.For example, I will obtain your personal data when you contact complete an online form or call me. I may also obtain sensitive personal data about you when you make an order with me. If you provide such information, you will be consenting to my processing it for the purpose of providing my services to you.\n\n5. I may monitor your use of this website through the use of cookies and similar tracking devices. For example, I may monitoring how many times you visit, which pages you go to, traffic data, location data and the originating domain name of a user's internet service provider. This information helps me to build a profile of my users. Some of this data will be aggregated or statistical, which means that I will not be able to identify you individually. Please see further the section on 'Use of cookies' below.\n\n6. Occasionally I may receive information about you from other sources (such as credit reference agencies) which I will add to the information which I already hold about you in order to help me provide services to you.\n\nHow I use your personal data\n\n7. I will use your personal data for the purposes described in the data protection notice that was given to you at the time your data were obtained. These purposes include:\n\nto help me identify you and any accounts you hold with me\nadministration\nresearch, statistical analysis and behavioural analysis\ncustomer profiling and analysing your purchasing preferences\nmarketing--see 'Marketing and opting out' below\nfraud prevention and detection\nbilling and order fulfilment\ncredit scoring and credit checking--see 'Credit checking' below\ncustomising this website and its content to your particular preferences\nto notify you of any changes to this website or to my services which may affect you\nsecurity vetting\nimproving my services\n\nMarketing and opting out\n\n8. Unless you have asked me not to do so, I may contact you by mail, telephone, SMS, text/picture/video message and email about other medication sourcing services which may be of interest to you. If you prefer not to receive any direct marketing communications from me, you can opt out at any time. See further 'Your rights' below.\n\nDisclosure of your personal data\n\n9.I may disclose your personal data to:\n\nother companies within my group\nmy agents and service providers, such as doctors or pharmacists\ncredit reference agents--see 'Credit checking' below\nlaw enforcement agencies in connection with any investigation to help prevent unlawful activity\nKeeping your data\n\n10.I will use technical and organisational measures to safeguard your personal data, for example:\n\naccess to your account is controlled by password and username which are unique to you\nI store your personal data on secure servers\nall my websites are encrypted using SSL technology\npayment details are encrypted using SSL technology\n11.Whilst I will use all reasonable efforts to safeguard your personal data, you acknowledge that the use of the internet is not entirely and for this reason I cannot guarantee the security or integrity of any personal data which are transferred from you or to you via the internet.\n\nMonitoring\n\n12. I may monitor and record communications with you such as telephone conversations and emails for the purpose of quality assurance, training, fraud prevention and compliance.\n\nCredit checking\n\n13. To enable me and other companies in my group to make credit decisions about you for fraud prevention and money laundering purposes, I may search the files of credit reference agencies who will record the search. I may disclose information about how you conduct your account to such agencies and your information may be linked to records relating to other people living at the same address with whom you are financially linked. Other credit grantors may use this information to make credit decisions about you and the people with whom you are financially associated, as well as for fraud prevention, debtor tracing and money laundering purposes. If you provide false or inaccurate information and I suspect fraud, I will record this.\n\nInformation about other individuals\n\n14. If you give me information on behalf of someone else, you confirm that the other person has appointed you to act on his/her behalf and has agreed that you can:\n\ngive consent on his/her behalf to the processing of his or her personal data\nreceive on his/her behalf any data protection notices\ngive consent to the transfer of his/her personal data abroad\ngive consent to the processing of his or her personal medical information.\nUse of cookies\n\nA cookie is a small text file which is placed onto your computer (or other electronic device) when you access my website. I use cookies and other online tracking devices such as (specify, eg web beacons, action tags, Local Shared Objects, single-pixel gifs)] on this website to:\n\nrecognise you whenever you visit this website (this speeds up your access to the site as you do not have to log on each time)\nobtain information about your preferences, online movements and use of the internet\ncarry out research and statistical analysis to help improve my content, and services and to help me better understand my customer requirements and interests\ntarget my marketing and advertising campaigns more effectively by providing interest-based advertisements that are personalised to your interests&nbsp;make your online experience more efficient and enjoyable.\nThe information I obtain from my use of cookies will not usually contain your personal data. Although I may obtain information about your computer [or other electronic device] such as your IP address, your browser and/or other internet log information, this will not usually identify you personally. In certain circumstances I may collect personal information about you - but only where you voluntarily provide it (eg by completing an online form).\n\nIn most cases I will need your consent in order to use cookies on this website. The exception is where the cookie is essential in order for me to provide you with a service you have requested (eg to enable you to put items in your shopping basket and use my check-out process).\n\nYour Consent\n\nIf you visit my website when your browser is set to accept cookies, I will interpret this as an indication that you consent to my use of cookies and other similar technologies as described in this Privacy Policy. If you change your mind in the future about letting me use cookies, you can modify the settings of your browser to disable cookies completely.\n\nThird-party cookies\n\nI work with third-party suppliers who may also set cookies on my website, for example (specify, eg Facebook, Twitter, YouTube and Adobe Flashplayer which I use to display video content). These third-party suppliers are responsible for the cookies they set on my site. If you want further information please go to the website for the relevant third party. You will find additional information in the table below.]\n\nTransfers of data out of the EEA\n\n15. When you engaged my services, you agreed that I may transfer your personal data to entities such as pharmacies, doctors and shipping agents who are based outside the European Economic Area and who are necessary for me to provide my services to you. Rest assured that I will always ensure any transfer is subject to appropriate security measures to safeguard your personal data.\n\nYour rights\n\n16. You have the right, subject to the payment of a small fee (currently £50 GBP) to request access to personal data which I may process about you. If you wish to exercise this right you should:\n\nput your request in writing\ninclude proof of your identity and address (eg a copy of your driving licence or passport, and a recent utility or credit card bill)\nattach a cheque in the amount of £50 (or the equivalent in USD) made payable to Kate Dubrovska\nspecify the personal data you want access to, including any account or reference numbers where applicable.\n\n17. You have the right to require me to correct any inaccuracies in your data free of charge. If you wish to exercise this right you should:\n\nput your request in writing\nprovide me with enough information to identify you (eg account number, username, registration details)\nspecify the information that is incorrect and what it should be replaced with.\n\n18.You also have the right to ask me to stop processing your personal data for direct marketing purposes. If you wish to exercise this right you should:\nput your request in writing via my contact form and simply write \"unsubscribe me\" and provide me with information to identify you (eg account number, username, registration details.)\n\n19.if your objection is not to direct marketing in general, but to direct marketing by a particular channel (eg email or telephone) please specify the channel you are objecting to..\n\nMy contact details\n\n20.I welcome your feedback and questions. If you wish to contact me, please send an email or call me on +44-203-290-7826. D. My registered office is Hygeia Building, 2nd Floor, 66-68 College Road, HARROW, HA1 1BE, UK.\n\n21. I may change this privacy policy from time to time. You should check this policy occasionally to ensure you are aware of the most recent version which will apply each time you access this website.\n\n</p>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "contacts1",
-          "_anchor": "contacts1-w",
-          "_params": {
-            "paddingTop": "4",
-            "paddingBottom": "0",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#f3c649",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
-          },
-          "logo": {
-            "image": {
-              "src": "@PROJECT_PATH@/assets/images/34-128x128.png",
-              "width": 128,
-              "link": "#top",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false,
-              "active": true
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-contacts1",
-              "linkInNewWindow": false,
-              "name": "mobile",
-              "family": "MobiriseIcons",
-              "link": "#top",
-              "size": 0,
-              "newWindow": false
-            }
-          },
-          "text1": "<br><br>",
-          "text2": "<p><br></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\" style=\"font-size: 0.875rem; background-color: rgb(243, 198, 73); line-height: 1.5;\"><br></a></p><p><a href=\"tel:+44 (207) 097 8557\" class=\"text-white\"><br></a></p>",
-          "text3": ""
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#features4-7\">PROFILE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-g\">PROFESSIONAL &nbsp;EXPERIENCE</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#msg-box8-f\">EDUCATION</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black\" href=\"index.html#header3-i\">JOB RELATED SKILLS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-primary\" href=\"hire_me.html\">HIRE ME NOW</a></li>"
         }
       ]
     }
